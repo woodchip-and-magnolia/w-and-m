@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "Paint By Woodchip & Magnolia",
+            "text": "",
+            "link": "shopify:\/\/collections\/paint",
+            "label": "",
+            "color_scheme": "1"
+          }
+        },
+        "7fefd6a7-fc74-424a-8e4f-a8b3d24a6142": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WM-398-03-GARDEN_OF_DREAMS-NEUTRAL-05.jpg",
+            "link": "",
+            "width": "100"
+          }
+        },
+        "20a61d8a-7175-4893-ada8-ce79648832be": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "width": "100"
+          }
+        },
+        "8ffdb7d9-1075-43bb-a111-7ee84950a552": {
+          "type": "banner",
+          "settings": {
+            "heading": "Our luxury paint collection consists of 15 beautifully curated colours.",
+            "text": "Designed to perfectly complement our wallpapers, murals and borders, or to work individually on their own",
+            "link": "shopify:\/\/collections\/paint",
+            "label": "Shop now",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "7fefd6a7-fc74-424a-8e4f-a8b3d24a6142",
+        "20a61d8a-7175-4893-ada8-ce79648832be",
+        "8ffdb7d9-1075-43bb-a111-7ee84950a552"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 40,
+        "space_above": true,
+        "space_below": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "large"
+          }
+        },
+        "82888b0e-a570-4fa4-8924-38fe6aae14be": {
+          "type": "subcollections",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "product_grid",
+        "82888b0e-a570-4fa4-8924-38fe6aae14be"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapse_filters": true,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+      }
+    },
+    "16304799420a692ea6": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "16304799420a692ea6-0": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "How to order a wall mural",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "16304799420a692ea6-1": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Sample",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16304799420a692ea6-0",
+        "16304799420a692ea6-1"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "1645194612c94fd707": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "From the blog",
+        "blog": "news",
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "promo-grid",
+    "main-collection",
+    "recently-viewed",
+    "16304799420a692ea6",
+    "1645194612c94fd707"
+  ]
+}

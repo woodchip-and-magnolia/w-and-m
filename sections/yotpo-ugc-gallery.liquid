@@ -1,0 +1,24 @@
+
+  <div class="page-width{% if section.settings.max_width %} page-width--narrow{% endif %}">
+    <div
+      class="yotpo yotpo-pictures-widget"
+      data-gallery-id="6154afc96f4dbe3107680e1e">
+    </div>
+  </div>
+{% schema %}
+  {
+    "name": "Yotpo UGC Gallery",
+    "class": "yotpo-ugc-gallery",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "max_width",
+        "label": "Optimize for readability",
+        "info": "Applies a maximum width",
+        "default": true
+      }
+    ],
+    "blocks": [
+    ]
+  }
+{% endschema %}

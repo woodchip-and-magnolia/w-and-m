@@ -1,0 +1,1005 @@
+{
+  "sections": {
+    "1633354472012081de": {
+      "type": "slideshow",
+      "blocks": {
+        "1633354472012081de-1": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>What's New Pussycat?<\/p>",
+            "title_size": 82,
+            "subheading": "",
+            "link": "https:\/\/www.woodchipandmagnolia.co.uk\/collections\/shop-all-wallpaper-1?sort_by=created-descending",
+            "link_text": "SHOP NEW DESIGNS",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/WM-411-01-MAURICE-NAVY-CORAL-ROOM-HR-01.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/WM-411-01-MAURICE-NAVY-CORAL-ROOM-HR-01.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "1633354472012081de-0": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 50,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/animal-print-wallpaper",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#242430",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/33_b82bfb14-edee-47f6-9763-445781d658ca.png",
+            "image_mobile": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE_29.png",
+            "overlay_opacity": 10,
+            "focal_point": "center center"
+          }
+        },
+        "67ad8737-87f9-4139-afe6-f571d492a8f7": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/new-designs",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#242430",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/32_d11a9210-1c05-4f2b-b302-335005175b73.png",
+            "image_mobile": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE_30.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "3bf4c3e8-2d4f-4bcd-bfd3-49a25308f1a3": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "EXPLORE",
+            "title": "<p>CHINOISERIE <\/p>",
+            "title_size": 70,
+            "subheading": "Exquisite made to measure murals",
+            "link": "shopify:\/\/collections\/chinoiserie-oriental-murals",
+            "link_text": "EXPLORE",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/wm-398-04-garden_of_dreams-multi-05.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/wm-398-04-garden_of_dreams-multi-05.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "36a9b1ae-5874-4112-8ed7-dc884ebf6f00": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Out of the Woods<\/p>",
+            "title_size": 93,
+            "subheading": "",
+            "link": "https:\/\/www.woodchipandmagnolia.co.uk\/collections\/out-of-the-woods",
+            "link_text": "SHOP COLLECTION",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/Love_Your_Home_1640_x_800px_1800_x_1000px_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE.png",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        }
+      },
+      "block_order": [
+        "1633354472012081de-1",
+        "1633354472012081de-0",
+        "67ad8737-87f9-4139-afe6-f571d492a8f7",
+        "3bf4c3e8-2d4f-4bcd-bfd3-49a25308f1a3",
+        "36a9b1ae-5874-4112-8ed7-dc884ebf6f00"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -50,
+        "mobile_size": 40,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 6
+      }
+    },
+    "16359578387d8e1d66": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "What's new pussycat?",
+        "home_featured_products": "new-designs",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Always bold & always beautiful, we're anything but bland"
+          }
+        },
+        "772d9892-80f7-4f6f-ad42-7095bd63cbb2": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Luxury British design house injecting personality into interior design with our handcrafted and eco friendly wallpapers, murals, paints & fabrics<\/p>"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>WALLPAPER | MURALS | FABRIC | PAINT<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "772d9892-80f7-4f6f-ad42-7095bd63cbb2",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "2",
+        "divider": true
+      }
+    },
+    "16448500740ca1f263": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "What's new pussycat?",
+        "home_featured_products": "new-designs",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1652267066d4aab95a": {
+      "type": "text-columns",
+      "blocks": {
+        "16522670664ae111ee-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2_b8b8671e-2180-49fb-9262-3bb43cee9f4c.png",
+            "image_width": 650,
+            "title": "Inspiration: Striped Wallpaper",
+            "text": "<p>A few of our favourite inspirational images to demonstrate the power of a striped wallpaper and to inspire your next dream room scheme.<\/p>",
+            "button_label": "2 MIN READ",
+            "button_link": "shopify:\/\/blogs\/news\/inspiration-striped-wallpaper"
+          }
+        },
+        "16522670664ae111ee-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-08-01T105059.391.png",
+            "image_width": 650,
+            "title": "Wallpapering Your Bathroom",
+            "text": "<p>A bathroom is the ideal space for adding colour and personality to your walls with wallpaper but before you take the plunge, here are 5 things you need to know<\/p>",
+            "button_label": "2 MIN READ",
+            "button_link": "shopify:\/\/blogs\/news\/5-things-you-need-to-know-about-wallpapering-your-bathroom"
+          }
+        },
+        "16522670664ae111ee-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1_0df476f4-55a9-4bdc-b1d4-fe52fa775d8c.png",
+            "image_width": 650,
+            "title": "Introducing Maurice",
+            "text": "<p>Inspired by traditional hand painted Byobu, our elegant Maurice wallpaper is the epitome of chinoiserie and oriental style. Read more to discover all about our newest design.<\/p>",
+            "button_label": "2 MIN READ",
+            "button_link": "shopify:\/\/blogs\/news\/introducing-maurice"
+          }
+        }
+      },
+      "block_order": [
+        "16522670664ae111ee-0",
+        "16522670664ae111ee-1",
+        "16522670664ae111ee-2"
+      ],
+      "settings": {
+        "title": "If Walls Could Talk: August Issue",
+        "align_text": "center",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "slideshow-split": {
+      "type": "slideshow-split",
+      "blocks": {
+        "e9a896b4-5c1d-48a8-b3a8-b766d36fd713": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "",
+            "title": "The Decorating Hub",
+            "title_size": 40,
+            "subheading": "Consider this your ultimate decorating manual, where you can find all the decorating advice, expert tips and how-to’s you need in one place",
+            "link": "shopify:\/\/blogs\/decorating-hub",
+            "link_text": "LET'S DECORATE",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify:\/\/shop_images\/Untitled_800_x_500px_1.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        },
+        "d8ff1534-f1de-43e0-9355-9dfc4c731743": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "We love pattern",
+            "title": "Fantasy Garden",
+            "title_size": 60,
+            "subheading": "",
+            "link": "shopify:\/\/products\/fantasy-garden-floral-wallpaper",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/FANTASY_GARDEN_WM-138_1_HR.jpg",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        },
+        "slideshow-split-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Explore",
+            "title": "Chinoiserie",
+            "title_size": 60,
+            "subheading": "A\/W 2021",
+            "link": "shopify:\/\/collections\/chinoiserie-oriental-murals",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify:\/\/shop_images\/wm-398-04-garden_of_dreams-multi-05.jpg",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        },
+        "slideshow-split-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Made for your walls",
+            "title": "Paint",
+            "title_size": 60,
+            "subheading": "Our luxury paint collection has been created to compliment beautifully with our wallpapers and murals or to work individuall",
+            "link": "shopify:\/\/collections\/paint",
+            "link_text": "SHOP THE COLLECTION",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/WM-390-01-HARMONY_BORDER-ROOM-01.jpg",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        },
+        "6b8e2f27-f89d-4c51-ad57-fa08b8e837a4": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Side by Side Slide",
+            "title_size": 60,
+            "subheading": "Add optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        }
+      },
+      "block_order": [
+        "e9a896b4-5c1d-48a8-b3a8-b766d36fd713",
+        "d8ff1534-f1de-43e0-9355-9dfc4c731743",
+        "slideshow-split-0",
+        "slideshow-split-1",
+        "6b8e2f27-f89d-4c51-ad57-fa08b8e837a4"
+      ],
+      "settings": {
+        "full_width": false,
+        "height": 530,
+        "height_mobile": 420,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 6
+      }
+    },
+    "163506848278094ff3": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "163506848278094ff3-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/fearne-cotton-x-woodchip-magnolia",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/Love_Your_Home_1640_x_800px_1800_x_1000px_1090_x_451px_1090_x_500px_1090_x_600px_1090_x_500px_13.png",
+            "image_mobile": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE_25.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "163506848278094ff3-1": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 59,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/fearne-cotton-x-woodchip-magnolia",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Add_a_heading_3.png",
+            "image_mobile": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE_6.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "163506848278094ff3-0",
+        "163506848278094ff3-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16472654278ceebf57": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "16472654278c13ab39-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "arcadia",
+            "title": "Arcadia"
+          }
+        },
+        "16472654278c13ab39-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "pavilion-gardens",
+            "title": ""
+          }
+        },
+        "16472654278c13ab39-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "wonderwall",
+            "title": ""
+          }
+        },
+        "16472654278c13ab39-3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "english-garden",
+            "title": ""
+          }
+        },
+        "16472654278c13ab39-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "bamboozle",
+            "title": "Bamboozle"
+          }
+        },
+        "16472654278c13ab39-5": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "nidra-flow",
+            "title": ""
+          }
+        },
+        "2f40b18a-4a2e-4ca3-88b5-2d0e9ec884f1": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-garden-of-dreams",
+            "title": "Garden of Dreams"
+          }
+        },
+        "92638cab-ec9e-4beb-ad27-e2b80b596801": {
+          "type": "collection",
+          "settings": {
+            "collection": "from-the-orient",
+            "title": "From the Orient"
+          }
+        },
+        "86cf7be2-ac6e-432e-a014-73d58442d790": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "blooming-lovely",
+            "title": "Blooming Lovely"
+          }
+        },
+        "0052724d-bf3e-413e-b46b-79b93dbb5d64": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "spring-greens",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "16472654278c13ab39-0",
+        "16472654278c13ab39-1",
+        "16472654278c13ab39-2",
+        "16472654278c13ab39-3",
+        "16472654278c13ab39-4",
+        "16472654278c13ab39-5",
+        "2f40b18a-4a2e-4ca3-88b5-2d0e9ec884f1",
+        "92638cab-ec9e-4beb-ad27-e2b80b596801",
+        "86cf7be2-ac6e-432e-a014-73d58442d790",
+        "0052724d-bf3e-413e-b46b-79b93dbb5d64"
+      ],
+      "settings": {
+        "title": "Explore the Pavilion Gardens",
+        "divider": false
+      }
+    },
+    "1652267279509e0ca1": {
+      "type": "text-columns",
+      "blocks": {
+        "1652267279fc644f63-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WM-412-03-CANOPY-NAVY-GREEN-ROLL_SHOT-HR.jpg",
+            "image_width": 650,
+            "title": "Canopy Navy\/Green",
+            "text": "<p>Bring the magic of the rainforest to your walls with our new tropical inspired design. A rich canopy of lush palms, emergent tree climbers and super abundant forest ferns will transport your home to another world and make your walls dance under the twinkling lights of the rainforest. The intricate trees and leaves design is perfect for bringing the outside in.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/canopy-navy-green-wallpaper"
+          }
+        },
+        "1652267279fc644f63-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WM-411-01-MAURICE-NAVY-CORAL-ROLL_SHOT-HR.jpg",
+            "image_width": 650,
+            "title": "Maurice Navy\/Coral",
+            "text": "<p>Inspired by traditional hand painted Byobu, our elegant Maurice wallpaper is the epitome of chinoiserie and oriental style. Symbolising good fortune and longevity, these sitting Crane birds will bring a majestic quality to your walls, intertwined with exotic blooms and delicate trees and leaves.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/maurice-navy-coral-wallpaper"
+          }
+        },
+        "1652267279fc644f63-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WM-413-04-AWNING_STRIPE-PINK_CLOUD-GORSE-ROLL_SHOT-HR_4161d418-1860-4df7-b3f7-8441f0ffd6ac.jpg",
+            "image_width": 650,
+            "title": "Awning Stripe Pink Cloud\/Gorse",
+            "text": "<p>Bold is how we like our stripes and Awning is no exception. The contrasting shades between each of the beautifully 13cm wide stripes will add drama and personality to any room, Awning is a contemporary take on a classic design.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/awning-stripe-pink-cloud-gorse-wallpaper"
+          }
+        }
+      },
+      "block_order": [
+        "1652267279fc644f63-0",
+        "1652267279fc644f63-1",
+        "1652267279fc644f63-2"
+      ],
+      "settings": {
+        "title": "Nina's Favourites",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "163294517803b04cf9": {
+      "type": "yotpo-ugc-gallery-index",
+      "settings": {
+        "title": "Tag @WoodchipandMagnolia on Instagram to show us your makeovers",
+        "divider": true
+      }
+    },
+    "165226728402bdb8eb": {
+      "type": "advanced-content",
+      "blocks": {
+        "1652267284eeacbdaf-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<center><h2>Dream Schemes<\/h2><p>We do all the hardwork of putting your dream scheme together, so you don't have to.",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        },
+        "1652267284eeacbdaf-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Love_Your_Home_1640_x_800px_1800_x_1000px_1090_x_451px_1090_x_500px_1090_x_600px_1090_x_500px_1090_x_300px_1090_x_400px_1090_x_450px_167b31eb-99d9-4a49-bb71-d07bc40f20a1.png",
+            "link": "shopify:\/\/blogs\/news\/5-tips-to-help-you-choose-your-dream-scheme",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1652267284eeacbdaf-1",
+        "1652267284eeacbdaf-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "1636982728fbb52cc9": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "IF WALLS COULD TALK",
+        "blog": "news",
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "164684437949524f6f": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/003_PINK_CLOUD.png",
+        "image_width": 700,
+        "subtitle": "Paint to match your paper",
+        "title": "The Paint Collection",
+        "text": "",
+        "button_label": "EXPLORE NOW",
+        "button_link": "shopify:\/\/collections\/paint",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "1633517869f792682e": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1633517869f792682e-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/paint",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/homepage_page_5_1000_x_700px_19.png",
+            "image_mobile": "shopify:\/\/shop_images\/homepage_page_5_1000_x_700px_1080_x_1500px_5.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "1633517869f792682e-1": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Make an Impact<\/p>",
+            "title_size": 70,
+            "subheading": "Supports multiple text alignments and mobile-specific images.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1633517869f792682e-0",
+        "1633517869f792682e-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 50,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1652267644caec3122": {
+      "type": "logo-list",
+      "blocks": {
+        "16522676449646f67e-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/livingetc-logo-vector_1.png",
+            "link": ""
+          }
+        },
+        "16522676449646f67e-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-deco-logo.jpg",
+            "link": "https:\/\/www.elledecor.com\/"
+          }
+        },
+        "16522676449646f67e-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/architectural-digest-logo-538DC9D214-seeklogo.com_1.png",
+            "link": ""
+          }
+        },
+        "16522676449646f67e-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_54790df1-84d0-4759-a1bd-ce8d1f0d14f5.png",
+            "link": ""
+          }
+        },
+        "16522676449646f67e-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/good_homes_web.jpg",
+            "link": ""
+          }
+        },
+        "16522676449646f67e-5": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/periodLiving_logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16522676449646f67e-0",
+        "16522676449646f67e-1",
+        "16522676449646f67e-2",
+        "16522676449646f67e-3",
+        "16522676449646f67e-4",
+        "16522676449646f67e-5"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "slideshow-0": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Woodchip & Magnolia",
+            "title": "<p>IN THE WILD<\/p>",
+            "title_size": 54,
+            "subheading": "Browse beautiful images of real homes transformed with Woodchip & Magnolia wallpaper, paint & fabric.",
+            "link": "shopify:\/\/pages\/real-rooms-real-inspiration",
+            "link_text": "BE INSPIRED",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-04-29_at_18.16.29.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "slideshow-1": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 55,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/paint",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/homepage_page_5_1000_x_700px_19.png",
+            "image_mobile": "shopify:\/\/shop_images\/homepage_page_5_1000_x_700px_1080_x_1500px_5.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "a34b0b34-f7f2-4e80-8fb5-be91c4ba86bf": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "Collaboration",
+            "title": "<p>PEARL LOWE<\/p>",
+            "title_size": 70,
+            "subheading": "Wallpapers & Fabrics",
+            "link": "shopify:\/\/collections\/pearl-lowe-fabric-wallpaper",
+            "link_text": "Explore the collection",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/WMF-1002-01-WISTERIA_FABRIC-PINK_BLOOM.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/WMF-1002-01-WISTERIA_FABRIC-PINK_BLOOM.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0",
+        "slideshow-1",
+        "a34b0b34-f7f2-4e80-8fb5-be91c4ba86bf"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -40,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1632942820295fb5f0": {
+      "type": "yotpo-carousel-index",
+      "settings": {
+        "title": "Psst! See what our customers are saying about us...",
+        "reviews_page_link_text": "Read more",
+        "reviews_page_link": "shopify:\/\/pages\/customer-reviews",
+        "divider": false
+      }
+    },
+    "164485304199016786": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_38_59ac1e35-c0aa-48ea-8d93-a38c7e268745.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Be Inspired",
+        "text": "<p>Read the blog for real homes inspiration, expert advice and the secrets from behind our designs<\/p>",
+        "button_label": "READ NOW",
+        "button_link": "shopify:\/\/blogs\/news",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1638885588910c3499": {
+      "type": "featured-video",
+      "disabled": true,
+      "settings": {
+        "title": "The Design Inspiration - Aralia",
+        "video_url": "https:\/\/youtu.be\/_sTKAIa3bVc",
+        "divider": false
+      }
+    },
+    "1647857393d1e7392a": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "1647857393168e6951-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "1647857393168e6951-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "1647857393168e6951-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "1647857393168e6951-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "1647857393168e6951-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "1647857393168e6951-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647857393168e6951-0",
+        "1647857393168e6951-1",
+        "1647857393168e6951-2",
+        "1647857393168e6951-3",
+        "1647857393168e6951-4",
+        "1647857393168e6951-5"
+      ],
+      "settings": {
+        "title": "Popular categories",
+        "divider": false
+      }
+    },
+    "163488352251827c0d": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Paint by Woodchip & Magnolia",
+        "home_featured_products": "paint",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "16318882957c6115c9": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Fearne Cotton x Woodchip & Magnolia",
+        "home_featured_products": "fearne-cotton-x-woodchip-magnolia",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "163403764433b1a5cb": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "TRADE ACCOUNT",
+        "text": "<p>Our Woodchip & Magnolia Trade account is here to support designers, architects and stylists across the interiors industry. It provides access to a special trade rate, exclusive collection previews, free samples and a bespoke design service.<\/p>",
+        "button_label": "APPLY",
+        "button_link": "shopify:\/\/pages\/woodchip-magnolia-trade",
+        "image": "shopify:\/\/shop_images\/IMG_7887.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Decoration inspiration, expert advice and so much more."
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Woodchip & Magnolia magic, delivered straight to your inbox.<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text",
+        "form"
+      ],
+      "settings": {
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "1633354472012081de",
+    "16359578387d8e1d66",
+    "rich-text",
+    "16448500740ca1f263",
+    "1652267066d4aab95a",
+    "slideshow-split",
+    "163506848278094ff3",
+    "16472654278ceebf57",
+    "1652267279509e0ca1",
+    "163294517803b04cf9",
+    "165226728402bdb8eb",
+    "1636982728fbb52cc9",
+    "164684437949524f6f",
+    "1633517869f792682e",
+    "1652267644caec3122",
+    "slideshow",
+    "1632942820295fb5f0",
+    "164485304199016786",
+    "1638885588910c3499",
+    "1647857393d1e7392a",
+    "163488352251827c0d",
+    "16318882957c6115c9",
+    "163403764433b1a5cb",
+    "newsletter"
+  ]
+}

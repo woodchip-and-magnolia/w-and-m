@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "1653823806cb752a6d": {
+      "type": "text-columns",
+      "blocks": {
+        "1653823806f8372180-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WM-408-07-ARCADIA-BLUSH-02.jpg",
+            "image_width": 650,
+            "title": "Wall Coverings",
+            "text": "<p>Bold & beautiful eco friendly designer wallpaper, borders and murals<\/p><p>✔️ FSC Certified paper<\/p><p>✔️ Printed with Greenguard Gold Certified ink<\/p><p>✔️ Paste the wall application<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/shop-all-wallpaper-1"
+          }
+        },
+        "1653823806f8372180-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_3.png",
+            "image_width": 650,
+            "title": "Paint",
+            "text": "<p>15 highly pigmented paint colours inspired by nature<\/p><p>✔️ Designed to complement our wallpapers, borders and murals<\/p><p>✔️ Low VOC and eco friendly<\/p><p>✔️ Water based<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/paint"
+          }
+        },
+        "1653823806f8372180-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_1.png",
+            "image_width": 650,
+            "title": "Fabric",
+            "text": "<p>Luxury linen and velvet fabric available by the meter<\/p><p>✔️ Swatch sample service<\/p><p>✔️ FR treated<\/p><p>✔️ Made to order<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/shop-all-fabric"
+          }
+        }
+      },
+      "block_order": [
+        "1653823806f8372180-0",
+        "1653823806f8372180-1",
+        "1653823806f8372180-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1653823806cb752a6d"
+  ]
+}

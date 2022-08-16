@@ -1,0 +1,224 @@
+
+
+/* Shake animation for customize button */
+
+#wallpaperCustomize {
+  animation: shake-animation 2s ease infinite;
+}
+
+#wallpaperCustomize:hover {
+  animation: none;
+}
+
+@keyframes shake-animation {
+   0% { transform:translate(0,0) }
+  3% { transform:translate(5px,0) }
+  7% { transform:translate(0,0) }
+  11% { transform:translate(5px,0) }
+  14% { transform:translate(0,0) }
+  18% { transform:translate(5px,0) }
+  22% { transform:translate(0,0) }
+  100% { transform:translate(0,0) }
+}
+
+#wallpaperCalculatorTrigger,
+.wallpaperCalculatorLink  {
+    text-align: center;
+    padding-left:35px;
+    position: relative;
+    float:right;
+    width: 60%;
+    max-width: 270px;
+}
+
+#wallpaperCalculatorTrigger svg ,
+.wallpaperCalculatorLink svg{
+    position: absolute;
+    left:12px;
+    height:1.4em;
+    width:1.4em;
+}
+
+#wallpaperCalculatorTrigger svg *,
+.wallpaperCalculatorLink svg *{
+	fill:#fff;
+    stroke:#fff;
+}
+
+/*
+@media (max-width: 1175px){
+    #wallpaperCalculatorTrigger  {
+        width:20px;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+
+    }
+    #wallpaperCalculatorTrigger svg {
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+    }
+}*/
+
+#wallpaperCalculatorTotals {
+    float: right;
+  	position:relative;
+    width: 75%;
+}
+
+#wallpaperCalculatorTotals .total-cost,
+#wallpaperCalculatorTotals .rolls-needed {
+    text-align: right;
+}
+
+#wallpaperCalculatorTotals .bespoke-contact {
+    position: relative;
+    top:8px;
+    text-align: center;
+	margin-bottom:20px;
+}
+
+#wallpaperCalculatorTotals .bespoke-contact a{
+    text-decoration: underline;
+}
+
+
+.measurement-label {
+    margin-left: 5px;
+}
+
+#wallpaperCalculator .product-single__meta {
+    padding-top:0;
+}
+
+#wallpaperCalculator .product-single__meta,
+#addNewWall, #wallpaperCalculatorInputs
+ {
+    padding-left: 25px;
+}
+
+
+#wallpaperCalculatorAddToCart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:100%;
+}
+#wallpaperCalculatorAddToCart .btn {
+    margin-top:5px;
+    width:75%;
+}
+
+.add-new-wall-button {
+    margin-bottom: 15px;
+}
+
+.wall-number {
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+}
+
+.wallMeasurements label {
+    font-weight: 300 !important;
+    font-size: .9em !important;
+}
+
+.wallMeasurements input[type="number"] {
+    max-width: 75px;
+}
+
+.wallMeasurements label {
+    display: inline-block;
+    margin-right:15px;
+}
+
+.switch_properties {
+    text-align:right;
+  	margin-bottom: 0.5em;
+}
+
+
+.measurement.inactive {
+    text-decoration-line: underline;
+    background: white;
+    /*color: rgb(79, 94, 68);*/
+  	color: #333;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.measurement.active {
+    text-decoration-line: none;
+    /* background: rgb(79, 94, 68); */
+  	background: #333;
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+}
+.measurement.active:hover {
+    color: white;
+}
+
+.success-message {
+	padding-top:.5em;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade 2s linear;
+}
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+#wallpaperCalculator .product__thumbs {
+	display: none;
+}
+
+
+@media (max-width:469px), (max-width:975px) and (min-width:769px){
+.wallMeasurements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+.wallMeasurements label {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.wall-number {
+    width: 100%;
+    display: block;
+
+    margin-bottom: 1.2em;
+}
+.wall-number__spacer { display: none;}
+.input-label__text { width:50px;}
+
+    #wallpaperCalculatorAddToCart button {
+        width:100% !important;
+    }
+    #wallpaperCalculatorInputs, #addNewWall {
+        padding-left: 0;
+    }
+
+}
+
+
+/* Hide Calculator trigger button and yotpo badge in quick shop */
+
+.modal--quick-shop #wallpaperCalculatorTrigger-modal {
+    display: none;
+}
+.modal--quick-shop #y-badges-modal {
+    display: none;
+}

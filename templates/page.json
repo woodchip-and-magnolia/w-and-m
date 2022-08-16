@@ -1,0 +1,594 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16468378703a97124b": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "Nidra Flow",
+        "text": "<p>Add some energy and movement to your space with our beautiful collection of nature inspired wallpapers and murals. Go with the flow with our marbled effect ink design, or bring the outside with our Nidra collection of trees and leaves and calming rivers....<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/nidra-flow",
+        "image": "shopify:\/\/shop_images\/WM-392-04-NIDRA_BORDER-INK-02.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646838529db04ba36": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "WOODCHIP & MAGNOLIA",
+        "title": "Out Of The Woods",
+        "text": "<p>Our woodland-inspired designs are a delight for all the senses; inspiring a feeling of walking across crisp, crunchy leaves on a bright autumnal morning, and denoting the sights, sounds and smells of the forest<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/out-of-the-woods",
+        "image": "shopify:\/\/shop_images\/WMF-379-01-AVAR_HARE-FABRIC.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646838662477619d2": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "WOODCHIP & MAGNOLIA",
+        "title": "Blooming Lovely",
+        "text": "<p>From heavy petals to full blooms, our Blooming Lovely collection is for the flower power lovers with a penchant for pretty things<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/blooming-lovely",
+        "image": "shopify:\/\/shop_images\/AVA_MARIKA_SUPERSIZED_MOODY_WM-083_0_6f4b5546-968a-4f4d-beaa-0784a7fe686d.jpg",
+        "focal_point": "20% 50%",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "164683886860f04900": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "English Garden",
+        "text": "<p>Inspired by the classic English garden, this botanical collection of floral fancies is enough to inspire a whole world of bold and beautiful decor.<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/english-garden",
+        "image": "shopify:\/\/shop_images\/WMF-364-01-HESTIA_COAL_BLACK-FABRIC.jpg",
+        "focal_point": "80% 100%",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646838980e28b713c": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "From The Orient",
+        "text": "<p>Designed with the chinoiserie and oriental interior style in mind, stunning trees and leaves are combined with vivid colours and traditional prints to create pattern and colour combinations to complement any space.<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/from-the-orient",
+        "image": "shopify:\/\/shop_images\/RIVINGTON_-_YELLOW_WM-126_1_26cdcf5d-5d60-438c-bd04-d31983ba7ff7.jpg",
+        "focal_point": "bottom",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646839575aaf8cbf3": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "The Wisteria Edit",
+        "text": "<p>The enchanting nature of the long, trailing scented blooms of Wisteria was the inspiration behind this stunning collection of wallpapers, murals and fabrics.....<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/the-wisteria-collection",
+        "image": "shopify:\/\/shop_images\/WM-406-07-WISTERIA_MURAL-PINK_BLOOM-02.jpg",
+        "focal_point": "top",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646840177e0171c59": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "WOODCHIP & MAGNOLIA",
+        "title": "The Petrichor Collection",
+        "text": "<p>Inspired by the landscapes of the Lancashire moors and the transition of the seasons, this new collection explores the beauty of traditional heritage with a modern twist....<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/paint-pattern-the-petrichor-collection",
+        "image": "shopify:\/\/shop_images\/WMF-381-05-FLORESTA_MALLARD_BLUE.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "16468404042019da23": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "The Lush Collection",
+        "text": "<p>Keep palm and carry on with our collection of lush tropical wallpapers, fabrics and paint colours. Bring the fun-factor to your space with our bold and beautiful palm prints and pineapples, or go bird watching with our Wonderland mural featuring a pair of fabulous flamingoes.<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/tropical-oasis",
+        "image": "shopify:\/\/shop_images\/WM-346-01_LUSH_GREEN_PINK_HR_2.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "16468404846483a779": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Fearne Cotton",
+        "title": "Hope & Bloom",
+        "text": "<p>An exclusive designer collection in collaboration with presenter and author Fearne Cotton. Consisting of five unique and personal wallpaper and fabric designs, this collection embodies Fearne’s light and quirky style, using a blend of fresh colours and calming patterns<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/fearne-cotton-x-woodchip-magnolia",
+        "image": "shopify:\/\/shop_images\/WM-383-02_Fearne_Cotton-HOPE_AND_BLOOM-DUSKY_PINK-04_152b5944-b388-44de-9f59-6a9cd89d3832.jpg",
+        "focal_point": "top",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646840626d12d6a17": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "Fake It",
+        "text": "<p>Fake it ’til you make it so they say, and we’d have to agree. Why spend time and money on the real thing when we’ve got the faux real solution at the click of your fingers.<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/fake-it",
+        "image": "shopify:\/\/shop_images\/REAL_RED_BRICK_WM-012_1.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646840722eb23bfb5": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "Wonderland",
+        "text": "<p>If unique designs and classics with a twist are your thing, then you’ve come to the right place with our collection of off-the-wall wallpapers and fabrics. We’ll take you all the way to Wonderland with our quirky selection of wallpapers to make you second guess yourself. Including flamingoes in heels (yes, you read that right).......<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/wonderwall",
+        "image": "shopify:\/\/shop_images\/AI-066_LEGS_ELEVEN_1.jpg",
+        "focal_point": "top",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646840820f5803330": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "Granny Chic",
+        "text": "<p>Fill your home with pattern, texture and moments of nostalgia with our collection of Granny Chic wallpapers, fabrics and paint colours. Whether you’re a grandmillenial or just a fan of florals, you’ll find what you’re looking for amongst our gorgeous blooms and delicate bird prints.<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/granny-chic",
+        "image": "shopify:\/\/shop_images\/DAWN_CHOURS_-_SMOKEY_HEATHER_WM-202_0.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646840913849cf44e": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "Wild Things",
+        "text": "<p>Take a walk on the wild side with our fun and feisty collection of animal print wallpapers and fabrics. From tropical bird styles to rock ’n’ roll leopard prints, we’ve got the Animal Kingdom covered from your ceilings to your floor.<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/wild-things",
+        "image": "shopify:\/\/shop_images\/RAPTURE_-_TRUE_LEOPARD_WM-341-01_0_1a27e1b8-fd9f-4dea-a41f-2e39d6783952.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1646841055b6866c04": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "Nostalgia",
+        "text": "<p>Take the faded glamour of the past and bring it into the present with our nostalgic collection of wallpapers, fabrics and paint colours. From the decorative vintage Victorian times to the grandiose Art Deco days of the 1920s, we’ve got a time machine that will take you to any era you want.<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/nostalgia",
+        "image": "shopify:\/\/shop_images\/Violas_Butterflies_WM-330-01-1.jpg",
+        "focal_point": "bottom",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "164684116410138d0e": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Woodchip & Magnolia",
+        "title": "Land Of Milk & Money",
+        "text": "<p>Transport yourself to another world with our Land of Milk and Honey collection of stunning wallpapers and fabrics. From ethereal forest-scapes to butterflies in the sky, this collection is for the schemers and day dream believers.<\/p>",
+        "button_label": "Explore",
+        "button_link": "shopify:\/\/collections\/land-of-milk-honey",
+        "image": "shopify:\/\/shop_images\/LAND_OF_MILK_HONEY_-_BUTTERFLIES_WM-112_0_HR.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1652948555d21da277": {
+      "type": "slideshow-split",
+      "disabled": true,
+      "blocks": {
+        "1652948555854d4723-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "JOIN OUR VIP PROGRAM",
+            "title": "For the VIP's",
+            "title_size": 50,
+            "subheading": "Calling all designers, decorators, developers, architects and stylists; we're here to make your dream schemes a reality (and as hassle-free as possible!)",
+            "link": "https:\/\/www.woodchipandmagnolia.co.uk\/a\/wsg\/proxy\/signup",
+            "link_text": "JOIN NOW",
+            "link_2": "https:\/\/www.woodchipandmagnolia.co.uk\/a\/wsg\/proxy\/login",
+            "link_text_2": "ALREADY A MEMBER? SIGN IN",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE_800_x_600px.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "2"
+          }
+        },
+        "1652948555854d4723-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Highlight products",
+            "title_size": 60,
+            "subheading": "Repurpose your product photography with our \"Indented\" image option",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "1652948555854d4723-0",
+        "1652948555854d4723-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16529486885a5f56a7": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "1652948688685fdd58-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2_8ce35563-d13b-43ce-9ba3-e21fc594b2b5.png",
+            "image_width": 650,
+            "title": "Trade Pricing",
+            "text": "<p>- Trade discount on wallpaper, murals, fabric and paint<\/p><p>- FREE samples & swatches<\/p><p>- FREE sample delivery<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1652948688685fdd58-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1_030ea8af-cadc-424c-9291-652fe9716110.png",
+            "image_width": 650,
+            "title": "Bespoke Service",
+            "text": "<p>- Bespoke design service<\/p><p>- Expert colour and design advice<\/p><p>- Direct support contact<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1652948688685fdd58-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_2.png",
+            "image_width": 650,
+            "title": "Priority Delivery",
+            "text": "<p>- Priority service<\/p><p>- Worldwide shipping<\/p><p>- Deliver directly to you, your site or your client<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652948688685fdd58-0",
+        "1652948688685fdd58-1",
+        "1652948688685fdd58-2"
+      ],
+      "settings": {
+        "title": "Why join?",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "16529488559dcb43ec": {
+      "type": "slideshow-split",
+      "disabled": true,
+      "blocks": {
+        "1652948855b2784a95-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "",
+            "title": "Eco Friendly Business",
+            "title_size": 51,
+            "subheading": "We pride ourselves on our eco friendly products and ways of working, so you and your clients can be safe in the knowledge that you're working with a business who takes sustainability seriously",
+            "link": "shopify:\/\/pages\/eco-manifesto-1",
+            "link_text": "ECO MANIFESTO",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE_800_x_600px_1.png",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        },
+        "1652948855b2784a95-1": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "",
+            "title": "Highlight products",
+            "title_size": 60,
+            "subheading": "Repurpose your product photography with our \"Indented\" image option",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "1652948855b2784a95-0",
+        "1652948855b2784a95-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "165294893833140317": {
+      "type": "slideshow-split",
+      "disabled": true,
+      "blocks": {
+        "1652948938df6f83f5-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "",
+            "title": "High Quality Products",
+            "title_size": 51,
+            "subheading": "We're a luxury design house, so it's important to us that we're delivering the highest quality wallpapers, murals, fabrics and paints for your project",
+            "link": "",
+            "link_text": "READ MORE",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/4_ea7082e5-bcae-4f7c-a206-cf4a77f2da4f.png",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        },
+        "1652948938df6f83f5-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Highlight products",
+            "title_size": 60,
+            "subheading": "Repurpose your product photography with our \"Indented\" image option",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "1652948938df6f83f5-0",
+        "1652948938df6f83f5-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1652949016576b4ef6": {
+      "type": "slideshow-split",
+      "disabled": true,
+      "blocks": {
+        "16529490159c7ed20f-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "",
+            "title": "Bold & Beautiful Designs",
+            "title_size": 51,
+            "subheading": "We want to encourage individuality and celebrate uniqueness with our bold and beautiful designs. We don't do trends; instead we believe homes should be designed around their unique quirks, as well as your clients own unique style (which is where our bespoke service comes in!)",
+            "link": "shopify:\/\/blogs\/news\/the-reasons-why-we-dont-follow-trends",
+            "link_text": "LEARN MORE",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE_800_x_600px_2.png",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        },
+        "16529490159c7ed20f-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Highlight products",
+            "title_size": 60,
+            "subheading": "Repurpose your product photography with our \"Indented\" image option",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "16529490159c7ed20f-0",
+        "16529490159c7ed20f-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16529491750d44cbef": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "1652949175c0050a2a-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WM-408-07-ARCADIA-BLUSH-02.jpg",
+            "image_width": 650,
+            "title": "Wall Coverings",
+            "text": "<p>Bold & beautiful eco friendly designer wallpaper, borders and murals<\/p><p>✔️ FSC Certified paper<\/p><p>✔️ Printed with Greenguard Gold Certified ink<\/p><p>✔️ Paste the wall application<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/shop-all-wallpaper-1"
+          }
+        },
+        "1652949175c0050a2a-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_3.png",
+            "image_width": 650,
+            "title": "Paint",
+            "text": "<p>15 highly pigmented paint colours inspired by nature<\/p><p>✔️ Designed to complement our wallpapers, borders and murals<\/p><p>✔️ Low VOC and eco friendly<\/p><p>✔️ Water based<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/paint"
+          }
+        },
+        "1652949175c0050a2a-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_1.png",
+            "image_width": 650,
+            "title": "Fabric",
+            "text": "<p>Luxury linen and velvet fabric available by the meter<\/p><p>✔️ Swatch sample service<\/p><p>✔️ FR treated<\/p><p>✔️ Made to order<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/shop-all-fabric"
+          }
+        }
+      },
+      "block_order": [
+        "1652949175c0050a2a-0",
+        "1652949175c0050a2a-1",
+        "1652949175c0050a2a-2"
+      ],
+      "settings": {
+        "title": "Explore Woodchip & Magnolia",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16468378703a97124b",
+    "1646838529db04ba36",
+    "1646838662477619d2",
+    "164683886860f04900",
+    "1646838980e28b713c",
+    "1646839575aaf8cbf3",
+    "1646840177e0171c59",
+    "16468404042019da23",
+    "16468404846483a779",
+    "1646840626d12d6a17",
+    "1646840722eb23bfb5",
+    "1646840820f5803330",
+    "1646840913849cf44e",
+    "1646841055b6866c04",
+    "164684116410138d0e",
+    "1652948555d21da277",
+    "16529486885a5f56a7",
+    "16529488559dcb43ec",
+    "165294893833140317",
+    "1652949016576b4ef6",
+    "16529491750d44cbef"
+  ]
+}

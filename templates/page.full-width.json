@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-full-width",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1633525520a40fc779": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true,
+        "color_scheme": "1"
+      }
+    },
+    "1635411113b55aee2a": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "1635411113b55aee2a-0": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Sign up to be notified!"
+          }
+        },
+        "1635411113b55aee2a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subscribe to Deck Your Walls November 2021 coming soon<\/p>"
+          }
+        },
+        "1635411113b55aee2a-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1635411113b55aee2a-0",
+        "1635411113b55aee2a-1",
+        "1635411113b55aee2a-2"
+      ],
+      "settings": {
+        "color_scheme": "1"
+      }
+    },
+    "16522725908a8bd745": {
+      "type": "yotpo-carousel-index",
+      "disabled": true,
+      "settings": {
+        "title": "What our customers are saying",
+        "reviews_page_link_text": "Read all reviews",
+        "reviews_page_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1633525520a40fc779",
+    "1635411113b55aee2a",
+    "16522725908a8bd745"
+  ]
+}

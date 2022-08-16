@@ -1,0 +1,319 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1652948555d21da277": {
+      "type": "slideshow-split",
+      "blocks": {
+        "1652948555854d4723-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "ECO MANIFESTO",
+            "title": "Our Commitment to Nature",
+            "title_size": 50,
+            "subheading": "We put nature at the heart of our business. From our designs, to the way we work; we’re always striving to protect the world around us to the best of our abilities.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE_800_x_600px_1.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "2"
+          }
+        },
+        "1652948555854d4723-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Highlight products",
+            "title_size": 60,
+            "subheading": "Repurpose your product photography with our \"Indented\" image option",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "1652948555854d4723-0",
+        "1652948555854d4723-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1653554081d3608f9e": {
+      "type": "logo-list",
+      "blocks": {
+        "1653554081ad98ec60-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_8f066130-e3b2-4732-ae4e-4d60604fa9ed.png",
+            "link": ""
+          }
+        },
+        "1653554081ad98ec60-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_1521ca2c-b6e6-4c01-a7f6-1321478cb2f5.png",
+            "link": ""
+          }
+        },
+        "1653554081ad98ec60-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_78242c2b-dd3e-46c1-9f07-8cef0e0729bf.png",
+            "link": ""
+          }
+        },
+        "1653554081ad98ec60-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_6f22a87d-8fc4-4e35-a72b-e9afb24a2621.png",
+            "link": ""
+          }
+        },
+        "1653554081ad98ec60-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_0b7a82a6-9c50-407a-8290-6dfe9f7f0385.png",
+            "link": ""
+          }
+        },
+        "1653554081ad98ec60-5": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_ee050da8-69fd-4089-a550-6ab8acec7367.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653554081ad98ec60-0",
+        "1653554081ad98ec60-1",
+        "1653554081ad98ec60-2",
+        "1653554081ad98ec60-3",
+        "1653554081ad98ec60-4",
+        "1653554081ad98ec60-5"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false
+      }
+    },
+    "1652958310e05b70a1": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_8e5fd249-6c5e-48f1-b277-53aceedaed34.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "FSC Certified Paper",
+        "text": "<p>All the paper we use to produce our wallpapers, murals and borders is FSC-certified, which means that it’s been harvested in a responsible manner from well-managed and sustainable forests. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "16529582117d6de6f2": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_3df04e6d-a488-4c45-a1db-3dcb18bdf688.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Minimal Wastage",
+        "text": "<p>As we print all of our wallpapers, murals, borders and fabrics to order in-house at our Lancashire studio, it means that we generate minimal wastage. We also reuse any wastage that we do generate as the base for our paint samples and anything extra on top of that is reused in other ways or recycled.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1652958734e6fd185e": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_800_x_500px_2.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Kind to Nature",
+        "text": "<p>Our paints are water-based with low VOCs, so there are no harmful chemicals to breathe in. We also use water-based Greenguard Gold certified inks in all of our printing, allowing us to create hard-wearing products with intense depths of colour, whilst also staying kind to the environment and humans.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1653484107de21c838": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_800_x_500px_3_8e79c9ce-549d-45c9-aaf3-0206e5a52dab.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "100% Renewable Energy Sources",
+        "text": "<p>As we only use digital, next generation technology to manufacture our products, we don’t use any gas. The energy we do use is clean and exclusively from 100% renewable energy sources. We’ve been working this way since our company’s inception back in April 2017.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "165348473422e93783": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_800_x_500px_4.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Minimal & Recyclable Packaging",
+        "text": "<p>Our minimal packaging is 100% recyclable. Even our labels are made from recycled paper! We don't use any unneccessary packing and keep it as simple as we can to use as little as possible.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1653485083086818ad": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_4db02a43-acdb-4480-9a99-25695029c70d.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "No Stock Holding",
+        "text": "<p>Another advantage to manufacturing everything in house to order is that we don’t use diesel-guzzling trucks to transport products from factory to studio. We hold no stock so there's no extra lighting, heating or unnecessary use of energy used for stock rooms either, and all of the energy we do use to run our equipment is provided by 100% renewable energy sources. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1652958570ac0cd529": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_10ef64a2-8416-4e20-9349-4b9579ec56c9.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Every Little Helps",
+        "text": "<p>We’re big on the little things and encourage a culture of car-sharing, cycling to work and working from home where we can to save on fuel emissions. We even get our milk delivered locally by a milk lady in traditional glass bottles and drink Lancashire tea in the studio!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "16529491750d44cbef": {
+      "type": "text-columns",
+      "blocks": {
+        "1652949175c0050a2a-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WM-408-07-ARCADIA-BLUSH-02.jpg",
+            "image_width": 650,
+            "title": "Wall Coverings",
+            "text": "<p>Bold & beautiful eco friendly designer wallpaper, borders and murals<\/p><p>✔️ FSC Certified paper<\/p><p>✔️ Printed with Greenguard Gold Certified ink<\/p><p>✔️ Paste the wall application<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/shop-all-wallpaper-1"
+          }
+        },
+        "1652949175c0050a2a-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_3.png",
+            "image_width": 650,
+            "title": "Paint",
+            "text": "<p>15 highly pigmented paint colours inspired by nature<\/p><p>✔️ Designed to complement our wallpapers, borders and murals<\/p><p>✔️ Low VOC and eco friendly<\/p><p>✔️ Water based<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/paint"
+          }
+        },
+        "1652949175c0050a2a-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_1.png",
+            "image_width": 650,
+            "title": "Fabric",
+            "text": "<p>Luxury linen and velvet fabric available by the meter<\/p><p>✔️ Swatch sample service<\/p><p>✔️ FR treated<\/p><p>✔️ Made to order<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/shop-all-fabric"
+          }
+        },
+        "800f46e3-3b4c-42c5-aa3f-59f522febf21": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652949175c0050a2a-0",
+        "1652949175c0050a2a-1",
+        "1652949175c0050a2a-2",
+        "800f46e3-3b4c-42c5-aa3f-59f522febf21"
+      ],
+      "settings": {
+        "title": "Explore Woodchip & Magnolia",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652948555d21da277",
+    "1653554081d3608f9e",
+    "1652958310e05b70a1",
+    "16529582117d6de6f2",
+    "1652958734e6fd185e",
+    "1653484107de21c838",
+    "165348473422e93783",
+    "1653485083086818ad",
+    "1652958570ac0cd529",
+    "16529491750d44cbef"
+  ]
+}

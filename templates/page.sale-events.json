@@ -1,0 +1,342 @@
+{
+  "sections": {
+    "163541828574ca6b5e": {
+      "type": "rich-text",
+      "blocks": {
+        "163541828574ca6b5e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Woodchip & Magnolia Exclusive Deck Your Walls!"
+          }
+        },
+        "163541828574ca6b5e-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "77422bd6-9982-4795-b062-ed9b591a6ab3": {
+          "type": "page",
+          "disabled": true,
+          "settings": {
+            "page_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "163541828574ca6b5e-0",
+        "163541828574ca6b5e-1",
+        "77422bd6-9982-4795-b062-ed9b591a6ab3"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "16354182265deab512": {
+      "type": "slideshow-split",
+      "blocks": {
+        "16354182265deab512-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Side by side slide",
+            "title_size": 60,
+            "subheading": "Tailored for longer text and smaller images. Explain more about your promotion.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "right",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "2"
+          }
+        },
+        "16354182265deab512-1": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "NOVEMBER EXCLUSIVE",
+            "title": "DECK YOUR WALLS",
+            "title_size": 40,
+            "subheading": "For the month of November only, we're encouraging you to Deck Your Walls. With up to £200 in Woodchip & Magnolia gift cards (give or keep for yourself) available to spend on your next purchase, the more you spend the more you save.\n\nUse code DECKYOURWALLS at checkout",
+            "link": "https:\/\/www.woodchipandmagnolia.co.uk\/collections\/all",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/WIN.png",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "16354182265deab512-0",
+        "16354182265deab512-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 740,
+        "height_mobile": 650,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16354198965fc6f68f": {
+      "type": "rich-text",
+      "blocks": {
+        "16354198965fc6f68f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "GIVE OR KEEP FOR YOURSELF"
+          }
+        },
+        "16354198965fc6f68f-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Spend £130. Receive a £25 W&M Gift Card <\/p><p>Spend £260. Receive a £50 W&M Gift Card<\/p><p>Spend £520.Receive a £100 W&M Gift Card<\/p><p>Spend £780. Receive a £150 W&M Gift Card<\/p><p>Spend £1,040. Receive a £200 W&M Gift Card<\/p>"
+          }
+        },
+        "052bce60-31cf-40f1-b17f-d50d0bd3c2a4": {
+          "type": "page",
+          "disabled": true,
+          "settings": {
+            "page_text": "deck-your-walls-nov-21"
+          }
+        }
+      },
+      "block_order": [
+        "16354198965fc6f68f-0",
+        "16354198965fc6f68f-1",
+        "052bce60-31cf-40f1-b17f-d50d0bd3c2a4"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": true
+      }
+    },
+    "1635411455a3306366": {
+      "type": "featured-collections",
+      "blocks": {
+        "1635411455a3306366-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-selling-products",
+            "title": "WALLPAPER"
+          }
+        },
+        "1635411455a3306366-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "woodchip-magnolia-wall-murals-1",
+            "title": "MURALS"
+          }
+        },
+        "1635411455a3306366-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "fearne-cotton-x-woodchip-magnolia",
+            "title": "FEARNE COTTON"
+          }
+        },
+        "1635411455a3306366-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "pearl-lowe-fabric-wallpaper",
+            "title": "PEARL LOWE"
+          }
+        },
+        "1635411455a3306366-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "paint",
+            "title": "PAINT"
+          }
+        },
+        "1635411455a3306366-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-all-fabric",
+            "title": "FABRIC"
+          }
+        }
+      },
+      "block_order": [
+        "1635411455a3306366-0",
+        "1635411455a3306366-1",
+        "1635411455a3306366-2",
+        "1635411455a3306366-3",
+        "1635411455a3306366-4",
+        "1635411455a3306366-5"
+      ],
+      "settings": {
+        "title": "SHOP FROM OUR COLLECTIONS",
+        "divider": true
+      }
+    },
+    "16354199034821ba9c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SHOP BESPOKE MURALS",
+        "home_featured_products": "woodchip-magnolia-wall-murals-1",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    },
+    "16354267992b85112a": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16354267992b85112a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "16354267992b85112a-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Offer terms<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16354267992b85112a-0",
+        "16354267992b85112a-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page-full-width",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1635411113b55aee2a": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "1635411113b55aee2a-0": {
+          "type": "title",
+          "settings": {
+            "title": "Sign up to be notified!"
+          }
+        },
+        "1635411113b55aee2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to Deck Your Walls November 2021 coming soon<\/p>"
+          }
+        },
+        "1635411113b55aee2a-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1635411113b55aee2a-0",
+        "1635411113b55aee2a-1",
+        "1635411113b55aee2a-2"
+      ],
+      "settings": {
+        "color_scheme": "1"
+      }
+    },
+    "1633525520a40fc779": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true,
+        "color_scheme": "1"
+      }
+    },
+    "163541829498c065fd": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "163541829498c065fd-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title_size": 70,
+            "subheading": "Perfect for rich lifestyle photography.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "163541829498c065fd-1": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Make an Impact<\/p>",
+            "title_size": 70,
+            "subheading": "Supports multiple text alignments and mobile-specific images.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "163541829498c065fd-0",
+        "163541829498c065fd-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    }
+  },
+  "order": [
+    "163541828574ca6b5e",
+    "16354182265deab512",
+    "16354198965fc6f68f",
+    "1635411455a3306366",
+    "16354199034821ba9c",
+    "16354267992b85112a",
+    "main",
+    "1635411113b55aee2a",
+    "1633525520a40fc779",
+    "163541829498c065fd"
+  ]
+}

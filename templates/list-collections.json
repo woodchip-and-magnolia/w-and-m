@@ -1,0 +1,138 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "78e2a704-1186-453e-b1c4-21f2a8bbedc0": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-all-wallpaper-1"
+          }
+        },
+        "734b1b23-35a1-486b-91b0-654c19e45c19": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-all-fabric"
+          }
+        },
+        "5f83c716-95e5-4e58-bf80-0974c9dadfe1": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-pavillion-gardens-collection"
+          }
+        },
+        "2ec10849-05cc-42bd-80db-8501c1263ad7": {
+          "type": "collection",
+          "settings": {
+            "collection": "woodchip-magnolia-wall-murals-1"
+          }
+        },
+        "37b14148-451e-4c60-b462-a6eb0dca764f": {
+          "type": "collection",
+          "settings": {
+            "collection": "paint"
+          }
+        },
+        "3ea44ed7-2162-474b-985f-27c8b0155269": {
+          "type": "collection",
+          "settings": {
+            "collection": "borders"
+          }
+        },
+        "3d72fdd1-6696-4829-b8fe-27cfafe7b156": {
+          "type": "collection",
+          "settings": {
+            "collection": "fearne-cotton-x-woodchip-magnolia"
+          }
+        },
+        "67a4ee41-cbe9-447e-8aad-ee43d878932e": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-wisteria-collection"
+          }
+        },
+        "4e192ad3-3a86-4f1b-8313-382f012cc773": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-ava-marika-collection"
+          }
+        },
+        "01c5f655-b24e-4386-a7e7-a7bf98f8c5c2": {
+          "type": "collection",
+          "settings": {
+            "collection": "paint-pattern-the-petrichor-collection"
+          }
+        },
+        "0bbff9a9-30c0-4d7a-afdf-bf0b742261ce": {
+          "type": "collection",
+          "settings": {
+            "collection": "wonderwall"
+          }
+        },
+        "888a5989-4ca2-4e22-b47d-4852103eaf7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "free-spirit"
+          }
+        },
+        "42f81c07-e549-49bb-973e-e275f265e498": {
+          "type": "collection",
+          "settings": {
+            "collection": "tropical-oasis"
+          }
+        },
+        "5d615286-caf9-4ef9-803c-2c8a18a835c0": {
+          "type": "collection",
+          "settings": {
+            "collection": "out-of-the-woods"
+          }
+        },
+        "fd4d7db1-7a4c-4fe5-8174-a2b2df2bf1a5": {
+          "type": "collection",
+          "settings": {
+            "collection": "blooming-lovely"
+          }
+        },
+        "89c7b438-c798-4910-a558-0fd100849c4a": {
+          "type": "collection",
+          "settings": {
+            "collection": "from-the-orient"
+          }
+        },
+        "91c711c5-7ff9-4f66-b4b5-ad7737ce3c40": {
+          "type": "collection",
+          "settings": {
+            "collection": "fake-it"
+          }
+        }
+      },
+      "block_order": [
+        "78e2a704-1186-453e-b1c4-21f2a8bbedc0",
+        "734b1b23-35a1-486b-91b0-654c19e45c19",
+        "5f83c716-95e5-4e58-bf80-0974c9dadfe1",
+        "2ec10849-05cc-42bd-80db-8501c1263ad7",
+        "37b14148-451e-4c60-b462-a6eb0dca764f",
+        "3ea44ed7-2162-474b-985f-27c8b0155269",
+        "3d72fdd1-6696-4829-b8fe-27cfafe7b156",
+        "67a4ee41-cbe9-447e-8aad-ee43d878932e",
+        "4e192ad3-3a86-4f1b-8313-382f012cc773",
+        "01c5f655-b24e-4386-a7e7-a7bf98f8c5c2",
+        "0bbff9a9-30c0-4d7a-afdf-bf0b742261ce",
+        "888a5989-4ca2-4e22-b47d-4852103eaf7e",
+        "42f81c07-e549-49bb-973e-e275f265e498",
+        "5d615286-caf9-4ef9-803c-2c8a18a835c0",
+        "fd4d7db1-7a4c-4fe5-8174-a2b2df2bf1a5",
+        "89c7b438-c798-4910-a558-0fd100849c4a",
+        "91c711c5-7ff9-4f66-b4b5-ad7737ce3c40"
+      ],
+      "settings": {
+        "title_enable": false,
+        "display_type": "selected",
+        "sort": "alphabetical"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,39 @@
+<!-- Global site tag (gtag.js) - Google Ads: 1016232025 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1016232025"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1016232025');
+</script>
+
+<!-- Google Remarketing Tag --> 
+	{% if template contains 'product' %}
+	<script>
+		gtag('event', 'page_view', {
+			'send_to': 'AW-1016232025',
+			'value': {{ product.price_min | money_without_currency | remove: ',' }},
+			'items': [{
+		 		'id': 'shopify_GB_{{ product.id }}_{{ product.selected_or_first_available_variant.id }}',
+				'google_business_vertical': 'retail'
+			}]
+		 });
+	</script>
+	{% elsif template contains 'cart' %}
+	<script>
+		gtag('event', 'add_to_cart', {
+			'send_to': 'AW-1016232025',
+			'value': {{ cart.total_price | money_without_currency | remove: ',' }}, 
+			'items': [
+			{% for item in cart.items %}
+			{
+				'id': 'shopify_GB_{{ item.product.id }}_{{ item.variant.id }}',
+				'google_business_vertical': 'retail'
+			}
+			{% unless forloop.last %},{% endunless %}{% endfor %}
+		    ]
+		});
+	</script>
+	{% endif %}
+<!-- END Google Remarketing Tag -->

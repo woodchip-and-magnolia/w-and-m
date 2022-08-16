@@ -1,0 +1,66 @@
+
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+  {%- if section.settings.title != blank -%}
+    <div class="page-width">
+      <div class="section-header{% if section.settings.view_all %} section-header--with-link{% endif %}">
+        <h2 class="section-header__title">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="page-width page-width--flush-small">
+    <div class="yotpo yotpo-reviews-carousel" 
+     data-background-color="transparent" 
+     data-mode="top_rated" 
+     data-type="site" 
+     data-count="9" 
+     data-show-bottomline="1" 
+     data-autoplay-enabled="1" 
+     data-autoplay-speed="3000" 
+     data-show-navigation="1">&nbsp;</div>
+    
+  </div>
+  <div class="page-width text-center">
+  	<a class="btn btn--large" href="{{ section.settings.reviews_page_link }}">{{ section.settings.reviews_page_link_text }}</a>
+  </div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Yotpo Reviews Carousel",
+    "class": "index-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "What our customers are saying"
+      },
+      {
+        "type": "text",
+        "id": "reviews_page_link_text",
+        "label": "Review page button text",
+        "default": "Read all reviews"
+      },
+	  {
+        "type": "url",
+        "id": "reviews_page_link",
+        "label": "Reviews page button link"
+      },
+      {
+        "type": "checkbox",
+        "id": "divider",
+        "label": "Show section divider",
+        "default": false
+      }
+    ],
+    "presets": [{
+      "name": "Yotpo Reviews Carousel"
+    }],
+    "blocks" : []
+  }
+{% endschema %}

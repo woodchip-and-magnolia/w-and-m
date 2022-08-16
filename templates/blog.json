@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide"
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "7268e248-ba5d-4fff-ba6c-d0f7dd1fc083": {
+          "type": "article",
+          "settings": {
+            "title": "MOST POPULAR",
+            "article": "decorating-hub\/what-paste-should-i-use",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "1346d2e7-79ac-451f-aba8-e23863759448": {
+          "type": "article",
+          "settings": {
+            "title": "",
+            "article": "decorating-hub\/how-to-measure-your-walls",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "1b79def3-efe0-4457-8aa3-ac745df3a7c8": {
+          "type": "article",
+          "settings": {
+            "title": "",
+            "article": "decorating-hub\/can-i-wallpaper-my-bathroom",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "tags": {
+          "type": "tags",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "7268e248-ba5d-4fff-ba6c-d0f7dd1fc083",
+        "1346d2e7-79ac-451f-aba8-e23863759448",
+        "1b79def3-efe0-4457-8aa3-ac745df3a7c8",
+        "tags"
+      ],
+      "settings": {
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "collection1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection1",
+        "collection2",
+        "collection3",
+        "collection4",
+        "collection5",
+        "collection6"
+      ],
+      "settings": {
+        "title": "You may also like",
+        "divider": false
+      }
+    },
+    "1642073124b1e2a0b7": {
+      "type": "newsletter",
+      "blocks": {
+        "164207312468cf107a-0": {
+          "type": "title",
+          "settings": {
+            "title": "Decoration inspiration, expert advice and so much more."
+          }
+        },
+        "164207312468cf107a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Woodchip & Magnolia magic, delivered straight to your inbox.<\/p>"
+          }
+        },
+        "164207312468cf107a-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "164207312468cf107a-0",
+        "164207312468cf107a-1",
+        "164207312468cf107a-2"
+      ],
+      "settings": {
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sidebar",
+    "featured-collections",
+    "1642073124b1e2a0b7"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

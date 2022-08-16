@@ -1,0 +1,504 @@
+// 1. Open modal
+// 2. Add new inputs to form
+// 3. Toggle metric to imperial
+// . Add to cart with fetch api
+// Add Event listeners
+
+
+var ready = (callback) => {
+    if (document.readyState != "loading") callback();
+    else document.addEventListener("DOMContentLoaded", callback);
+}
+
+ready(() => {
+
+
+    // 1. Open modal
+
+
+
+    function triggerModal() {
+        var calculator = document.getElementById("wallpaperCalculator");
+        var modalArea = document.getElementById("ProductModals");
+
+        modalArea.append(calculator);
+        calculator.style.display = "block";
+        calculator.classList.add("modal--is-active");
+        clicked = true;
+		//var flkty = new Flickity('#wallpaperCalculator .product-slideshow');
+		//flkty.next();
+
+    }
+    // Trigger calculator if query string has open-calculator in it
+    var field = 'open-calculator';
+    var url = window.location.href;
+    if(url.indexOf('?' + field + '=') != -1) {
+      triggerModal()
+    }
+
+    else if(url.indexOf('&' + field + '=') != -1){
+      triggerModal()
+    }
+    else {
+        console.log("dont open calc");
+    }
+
+    var calculatorTrigger = document.getElementById("wallpaperCalculatorTrigger");
+    calculatorTrigger.addEventListener("click", triggerModal, false);
+
+    function closeModal(e) {
+        var calculator = document.getElementById("wallpaperCalculator");
+        var modalArea = document.getElementById("ProductModals");
+
+
+        e.preventDefault();
+        calculator.style.display = "none";
+        calculator.classList.remove("modal--is-active")
+
+
+    }
+
+
+
+    var calculatorTrigger = document.getElementById("closeButton");
+    calculatorTrigger.addEventListener("click", closeModal, false);
+
+    // 2. Toggle metric to imperial
+
+    const calculator = document.getElementById("wallpaperCalculator");
+    const measurements = calculator.querySelectorAll(".measurement");
+
+    var isMetric = true;
+    var measurementLabel = "";
+    var toggleMeasurements = function (e) {
+        e.preventDefault();
+        if (isMetric === true) {
+            measurementLabel = "in";
+            let labels = calculator.querySelectorAll(".measurement-label");
+            labels.forEach(function (label) {
+                label.innerHTML = measurementLabel;
+            });
+
+            let values = calculator.querySelectorAll(".measurement-value");
+            values.forEach(function (value) {
+                var num = value.value * 0.39370079; // input cm
+                value.value = num.toFixed(2);
+
+                //value.innerHTML = measurementLabel;
+            });
+
+            isMetric = false;
+        } else if (isMetric === false) {
+            measurementLabel = "cm";
+            let labels = calculator.querySelectorAll(".measurement-label");
+            labels.forEach(function (label) {
+                label.innerHTML = measurementLabel;
+            });
+            let values = calculator.querySelectorAll(".measurement-value");
+            values.forEach(function (value) {
+
+                var num = Math.ceil(value.value * 2.54, -1); //input in
+                value.value = num.toFixed(2);
+
+                //value.innerHTML = measurementLabel;
+            });
+
+            isMetric = true;
+        }
+    }
+    const toggleClasses = function (e) {
+        measurements.forEach(function (measurementItem) {
+            e.preventDefault();
+            measurementItem.classList.toggle("active");
+            measurementItem.classList.toggle("inactive");
+        });
+    }
+
+    measurements.forEach(function (measurementItem) {
+
+        measurementItem.addEventListener("click", toggleClasses);
+        measurementItem.addEventListener("click", toggleMeasurements);
+    });
+
+
+	// Disable add to cart button when inputs change
+
+    const onChangeDisableAddToCart = function(){
+
+      let widthInputs = calculator.querySelectorAll(".width");
+      widthInputs.forEach(function (widthInput) {
+          widthInput.addEventListener('change',function(){
+              document.querySelector("#wallpaperAddToCart").disabled = true;
+          });
+
+      });
+      let heightInputs = calculator.querySelectorAll(".height");
+      heightInputs.forEach(function (heightInput) {
+          heightInput.addEventListener('change',function(){
+              document.querySelector("#wallpaperAddToCart").disabled = true;
+          });
+      });
+    }
+    onChangeDisableAddToCart();
+
+    // 3. Add new inputs to form
+
+    var productModals = document.getElementById("ProductModals");
+    var wallCount = 1;
+    var allWalls = document.getElementById("wallpaperCalculatorInputs");
+    var addWallButton = document.getElementById("addNewWall");
+    var addNewWall = function (e) {
+
+        wallCount++;
+        var cloneWall = allWalls.querySelector(".wallMeasurements").cloneNode(true);
+        cloneWall.querySelector(".number").innerHTML = wallCount;
+
+        var defaultWidth = 300;
+        var defaultHeight = 240;
+        if (isMetric == false) {
+            defaultWidth = defaultWidth * 0.39370079; // input cm
+            defaultWidth = defaultWidth.toFixed(2);
+
+            defaultHeight = defaultHeight * 0.39370079; // input cm
+            defaultHeight = defaultHeight.toFixed(2);
+
+        }
+
+        cloneWall.querySelector(".width").value = defaultWidth;
+        cloneWall.querySelector(".height").value = defaultHeight;
+
+
+        allWalls.append(cloneWall);
+       	var addToCartButtonInAddWall = document.getElementById("wallpaperAddToCart");
+ 		var calculatorTotalsInAddWall = document.getElementById("wallpaperCalculatorTotals");
+
+      	calculatorTotalsInAddWall.querySelector('.rolls-needed').style.display = "none";
+        calculatorTotalsInAddWall.querySelector('.total-cost').style.display = "none";
+        calculatorTotalsInAddWall.querySelector('.bespoke-contact').style.display = "none";
+      	onChangeDisableAddToCart();
+		addToCartButtonInAddWall.disabled = true;
+    }
+
+
+    var addWallButton = document.getElementById("addNewWall");
+	addWallButton.addEventListener("click", addNewWall);
+
+
+
+
+    // 4. Get roll product id and determine # of rolls needed
+
+    //Get product
+
+
+    var rollVariant;
+    var threePointThree;
+    var twoPointFive;
+    var rollVariant_price;
+    var threePointThree_price;
+    var twoPointFive_price;
+    var totalRollsRequired = 0;
+    var product_handle = calculator.querySelector(".product-section").dataset.productHandle;
+    fetch('/products/' + product_handle + '.js').then(function (response) {
+        return response.json()
+    }).then(
+        function (product) {
+            //console.log(product, "product");
+            //console.log(product.variants, "variants");
+            //console.log(product.price, "variants");
+
+
+
+            //get variants
+            var variants_object = product.variants;
+            for (let i = 0; i < variants_object.length; i++) {
+                const element = variants_object[i];
+                //console.log(element, i, "loop");
+                if (element.title == "Roll") {
+                    //console.log(element.price, i);
+                    rollVariant = element.id;
+                    rollVariant_price = element.price;
+                    //console.log(rollVariant, "Roll");
+                }
+                if (element.title.indexOf('3.3') > -1) {
+                    //console.log(element.price, i, "3.3");
+                    threePointThree = element.id;
+                    threePointThree_price = element.price;
+
+                    //console.log(threePointThree, "3.3");
+                }
+                if (element.title.indexOf('2.5') > -1) {
+                    //console.log(element.price, i, "2.5");
+                    twoPointFive = element.id;
+                    twoPointFive_price = element.price;
+                    //console.log(twoPointFive, "2.5");
+                }
+            }
+        }
+    )
+
+
+
+    const calcRolls = function () {
+      	var calculatorTotals = document.getElementById("wallpaperCalculatorTotals");
+		var dataVariant;
+        var rollWidth = 0;
+        var rollHeight = 0;
+        var stripTolerance = 0;
+      	var price;
+        if (rollVariant != null) {
+            //console.log("this is a roll product");
+
+            rollWidth = 52;
+            rollHeight = 1000;
+            stripTolerance = 35;
+           	if (isMetric === false) {
+                      stripTolerance = stripTolerance * 0.39370079; // input inches
+                      stripTolerance = stripTolerance.toFixed(2);
+            }
+          	dataVariant = rollVariant;
+			price = rollVariant_price;
+
+            calculatorTotals.querySelector('.rolls-needed').style.display = "block";
+            calculatorTotals.querySelector('.total-cost').style.display = "block";
+            calculatorTotals.querySelector('.bespoke-contact').style.display = "none";
+
+        }
+
+
+
+        if (threePointThree != null || twoPointFive != null) {
+            //console.log("this is a panel product");
+
+            const getHeights = function (e) {
+                let wallHeightExceeds = false;
+                let heights = calculator.querySelectorAll(".height");
+                let prevHeight = 0;
+                let heightInt = 0;
+                let heightArray = [];
+                let finalHeightInt = 0;
+
+
+                heights.forEach(function (height) {
+                    //console.log(height.value);
+                    heightInt = parseFloat(height.value);
+                    if (!Number.isNaN(heightInt)) {
+
+                        heightArray.push(heightInt);
+                    }
+                });
+
+
+                finalHeightInt = heightArray.reduce((element, max) => element > max ? element : max, 0);
+				//console.log(finalHeightInt, "test final height int after reduce\(\)")
+
+
+                var addToCartButton = document.getElementById("wallpaperAddToCart");
+                var customizeButton = document.getElementById("wallpaperCustomize");
+
+                var threePointThreeMeter = 330;
+                var twoPointFiveMeter = 250;
+                if (isMetric === false) {
+                    threePointThreeMeter = threePointThreeMeter * 0.39370079; // input inches
+                    threePointThreeMeter = threePointThreeMeter.toFixed(2);
+                    twoPointFiveMeter = twoPointFiveMeter * 0.39370079;
+                    twoPointFiveMeter = twoPointFiveMeter.toFixed(2);
+
+                   // heightInt = heightInt * 0.39370079;
+                   // heightInt = heightInt.toFixed(2);
+
+                  //  finalHeightInt = finalHeightInt * 0.39370079;
+                  //  finalHeightInt = finalHeightInt.toFixed(2);
+
+                }
+                //console.log("finalHeightInt", finalHeightInt);
+				var calculatorTotals = document.getElementById("wallpaperCalculatorTotals");
+
+                if (finalHeightInt <= twoPointFiveMeter) {
+                  	rollWidth = 208;
+                    rollHeight = 250;
+                    stripTolerance = 0;
+                     if (isMetric === false) {
+                      stripTolerance = stripTolerance * 0.39370079; // input inches
+                      stripTolerance = stripTolerance.toFixed(2);
+                     }
+
+
+      	 			price = twoPointFive_price;
+                    //addToCartButton.setAttribute('data-variant', twoPointFive);
+                  	dataVariant = twoPointFive;
+
+                    addToCartButton.setAttribute('data-quantity', totalRollsRequired);
+                    addToCartButton.disabled = false;
+                    addToCartButton.style.display = "block";
+                    customizeButton.style.display = "none";
+                  //  console.log("set to 2.5m variant", wallHeightExceeds, totalRollsRequired);
+                 	calculatorTotals.querySelector('.rolls-needed').style.display = "block";
+                  	calculatorTotals.querySelector('.total-cost').style.display = "block";
+                  	calculatorTotals.querySelector('.bespoke-contact').style.display = "none";
+                  //  console.log("finalHeightInt", finalHeightInt, "threePointThreeMeter", threePointThreeMeter,"twoPointFiveMeter", twoPointFiveMeter);
+                } else if (finalHeightInt <= threePointThreeMeter && heightInt > twoPointFiveMeter) {
+                    rollWidth = 156;
+                    rollHeight = 330;
+                    stripTolerance = 0;
+                   	if (isMetric === false) {
+                      stripTolerance = stripTolerance * 0.39370079; // input inches
+                      stripTolerance = stripTolerance.toFixed(2);
+                    }
+					price = threePointThree_price;
+                    //addToCartButton.setAttribute('data-variant', threePointThree);
+                  	dataVariant = threePointThree;
+
+                    addToCartButton.setAttribute('data-quantity', totalRollsRequired);
+                    addToCartButton.disabled = false;
+                    addToCartButton.style.display = "block";
+                    customizeButton.style.display = "none";
+                    //console.log("set to 3.3m variant", wallHeightExceeds, totalRollsRequired);
+                  	calculatorTotals.querySelector('.rolls-needed').style.display = "block";
+                  	calculatorTotals.querySelector('.total-cost').style.display = "block";
+                  	calculatorTotals.querySelector('.bespoke-contact').style.display = "none";
+                    //console.log("finalHeightInt", finalHeightInt, "threePointThreeMeter", threePointThreeMeter,"twoPointFiveMeter", twoPointFiveMeter);
+
+
+                } else if (finalHeightInt > threePointThreeMeter) {
+                    wallHeightExceeds = true;
+                    addToCartButton.style.display = "none";
+                    customizeButton.style.display = "block";
+                    //console.log("exceeds height", wallHeightExceeds, totalRollsRequired);
+        			calculatorTotals.querySelector('.rolls-needed').style.display = "none";
+                  	calculatorTotals.querySelector('.total-cost').style.display = "none";
+                  	calculatorTotals.querySelector('.bespoke-contact').style.display = "block";
+                    //console.log("finalHeightInt", finalHeightInt, "threePointThreeMeter", threePointThreeMeter,"twoPointFiveMeter", twoPointFiveMeter);
+
+                  	return;
+                }
+            }
+            getHeights();
+        }
+        if (isMetric === false) {
+
+            rollWidth = rollWidth * 0.39370079; // input cm;
+          	rollWidth = rollWidth.toFixed(2);
+
+            rollHeight = rollHeight * 0.39370079; // input cm;;
+			rollHeight = rollHeight.toFixed(2);
+        }
+
+        var wallpaperArea = rollWidth * rollHeight;
+        //console.log("rollWidth", rollWidth, "rollHeight", rollHeight);
+        var allWidths = document.getElementsByName('width[]');
+        //console.log("allWidths", allWidths, allWidths.length);
+        var allHeights = document.getElementsByName('height[]');
+        //console.log("price", price);
+        var stripsPerRoll = 0;
+        var stripsRequired = 0;
+		totalRollsRequired = 0;
+        for (var n = 0; n < allWidths.length; n++) {
+          	//console.log("allWidths[n].value", allWidths[n].value,"stripTolerance", stripTolerance, "rollHeight",rollHeight, "in loop");
+            stripsPerRoll = rollHeight / (Number(allHeights[n].value) + (Number(stripTolerance)));
+            //console.log("stripsPerRoll", stripsPerRoll);
+
+            //console.log("allWidths[n].value", allWidths[n].value, "rollWidth", rollWidth, "stripsRequired", Math.ceil(allWidths[n].value / rollWidth));
+
+            if (stripsPerRoll >= 1) {
+                stripsPerRoll = Math.floor(stripsPerRoll);
+                stripsRequired = Math.ceil(allWidths[n].value / rollWidth);
+                totalRollsRequired += Math.ceil(stripsRequired / stripsPerRoll);
+            }
+
+        }
+        var calcCost = price * totalRollsRequired;
+        //console.log("calc cost", calcCost, "total rolls required", totalRollsRequired);
+        var calculatorTotals = document.getElementById("wallpaperCalculatorTotals");
+        //calculatorTotals.querySelector('.rolls-needed').style.display = "block";
+        calculatorTotals.querySelector(".rolls-needed .quantity").innerHTML = totalRollsRequired;
+
+        //calculatorTotals.querySelector('.total-cost').style.display = "block";
+        var total_money = calcCost / 100;
+        calculatorTotals.querySelector(".total-cost .money").innerHTML = "£0.00";
+        calculatorTotals.querySelector(".total-cost .money").innerHTML = calculatorTotals.querySelector(".total-cost .money").innerHTML.replace("0.00", total_money.toFixed(2));
+        var addToCartButton = document.getElementById("wallpaperAddToCart");
+        addToCartButton.setAttribute('data-variant', dataVariant);
+        addToCartButton.setAttribute('data-quantity', totalRollsRequired);
+        addToCartButton.disabled = false;
+        //console.log(rollVariant, threePointThree, twoPointFive, "in calcRolls function");
+    };
+
+    document.getElementById("wallpaperCalculate").addEventListener("click", calcRolls);
+
+
+
+
+    // if it is a panel product, check height and choose variant
+
+    // else calculate height from 10m roll
+
+    // . Add to cart with fetch api
+
+
+
+    // Accepts a comma seperated list of variant ids
+    const addAllItems = function (e) {
+        //console.log(e);
+        let variantId = e.target.getAttribute("data-variant");
+        let rollsNeeded = e.target.getAttribute("data-quantity");
+        variantId = parseInt(variantId);
+        rollsNeeded = parseInt(rollsNeeded);
+        //console.log(e, variantId, rollsNeeded);
+        //# add the items to the data object we need to pass to the fetch call
+        var data = {
+            "quantity": rollsNeeded,
+            "id": variantId
+        }
+
+        fetch('/cart/add.js', {
+            body: JSON.stringify(data),
+            credentials: 'same-origin',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Requested-With': 'xmlhttprequest'
+            },
+            method: 'POST'
+        }).then((response) => {
+            return response.json();
+        }).then((json) => {
+            /* yay! our products were added - do something here to indicate to the user */
+            var cartContents = fetch('/cart.js')
+              .then(response => response.json())
+              .then(data => {
+           	  document.getElementById("HeaderCartTrigger").querySelector(".cart-link__bubble-num").innerHTML = data.item_count;
+			  const successMsg = document.createElement("small");
+              const successMsgContent = document.createTextNode("Added to cart!");
+              const addToCartButton = document.getElementById("wallpaperAddToCart");
+              successMsg.classList.add("fade-in");
+              successMsg.classList.add("success-message");
+
+
+              successMsg.appendChild(successMsgContent);
+              function insertAfter(newNode, existingNode) {
+                 existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+              }
+			  insertAfter(successMsg, addToCartButton);
+                setTimeout(function(){successMsg.remove()},2000);
+
+                closeModal(e);
+                document.dispatchEvent(new CustomEvent('cart:build'));
+                document.dispatchEvent(new CustomEvent('cart:open'));
+
+
+            });
+        }).catch((err) => {
+            /* uh oh, we have error. */
+            console.error(err)
+        });
+    }
+
+
+    document.getElementById("wallpaperAddToCart").addEventListener("click", addAllItems);
+
+
+
+});
+
+
+// Add event listeners

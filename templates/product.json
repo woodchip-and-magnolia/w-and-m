@@ -1,0 +1,353 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "505f6352-0245-4f58-aef6-58a8d384c054": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Worldwide Wallpaper Shipping"
+          }
+        },
+        "sales_point4": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Sample Service"
+          }
+        },
+        "f8e412ce-5c05-4475-bd5e-04335dff8001": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "checkmark",
+            "text": "Co-ordinate with Woodchip & Magnolia paint or wallpaper"
+          }
+        },
+        "sales_point2": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "truck",
+            "text": "Free UK 60 day returns"
+          }
+        },
+        "bb86cf4f-717e-4ddd-bf8c-9f8b6d2bb268": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "leaf",
+            "text": "We print to order, in super fast time (24-48 hr dispatch) We never run out of stock"
+          }
+        },
+        "sales_point3": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "leaf",
+            "text": "Digitally printed wallpapers and fabrics, proudly manufactured to the highest quality in our design studio in Lancashire England."
+          }
+        },
+        "5f596ac1-7d6f-4acc-b5d4-fdd4cfb7e836": {
+          "type": "trust_badge",
+          "disabled": true,
+          "settings": {
+            "trust_image": "shopify:\/\/shop_images\/WM-stamp-logo_3264c862-0f4c-41e4-a1ba-04a9b7112611.jpg"
+          }
+        },
+        "057e316d-3087-46cb-89e2-0b4c1fb9f4fc": {
+          "type": "custom",
+          "settings": {
+            "code": "<div id=\"y-badges\" class=\"yotpo yotpo-badge badge-init\">&nbsp;<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "buy_buttons",
+        "variant_picker",
+        "505f6352-0245-4f58-aef6-58a8d384c054",
+        "price",
+        "sales_point",
+        "sales_point4",
+        "f8e412ce-5c05-4475-bd5e-04335dff8001",
+        "sales_point2",
+        "bb86cf4f-717e-4ddd-bf8c-9f8b6d2bb268",
+        "sales_point3",
+        "5f596ac1-7d6f-4acc-b5d4-fdd4cfb7e836",
+        "057e316d-3087-46cb-89e2-0b4c1fb9f4fc"
+      ],
+      "settings": {
+        "sku_enable": true,
+        "image_position": "left",
+        "image_container_size": "small",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": true,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "80d9a6c2-5a6b-4703-977d-0a5fb8bec10e": {
+          "type": "tab",
+          "settings": {
+            "title": "Product Details",
+            "content": "<p>{{ product.metafields.my_fields.wallpaper_panel_info_ | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "e27c1421-7cfe-4a74-9892-e6fc94b14bf1": {
+          "type": "tab",
+          "settings": {
+            "title": "Co-ordinate with our Paint, Fabric & Wallpapers",
+            "content": "<p>{{ product.metafields.my_fields.co_ordinate_with_our_paint | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "6ffaa71b-741a-45df-81ef-29b1cffde6dc": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "How to order",
+            "content": "<p>{{ product.metafields.my_fields.how_to_order_ | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "dcbcec38-212d-4671-a750-47788c230fd5": {
+          "type": "tab",
+          "settings": {
+            "title": "Samples",
+            "content": "<p>We offer a sample service across our full range of wallpaper, murals, fabrics and paints with FREE SHIPPING<\/p><p><strong>Wallpaper samples<\/strong> are full-width 52cm x 22cm in size.<\/p><p><strong>The following wallpaper sample<\/strong>s e.g Ava Marika, Onism, George , Legs Eleven are 52cm x 52cm <\/p><p><strong>Mural samples<\/strong> are 52cm x 52cm <\/p><p><strong>Paint samples A5 in size <\/strong>are recyclable and have been hand-painted onto our wallpaper roll ends + = 0 wallpaper waste – currently only available in a Matt finish<\/p><p><strong>Fabric Samples 25 x 22 cm <\/strong><\/p><p>Onism fabric 50 x 20 cm<\/p><p>Ava Marika fabric 42 cm x 30 cm<\/p><p><strong>MAX of 2 samples of the same design. We have the right to refund orders of multiple orders of the same design.<\/strong><\/p><p><strong>Sample swatches are intended as a colour and texture sample only and do not show the full design repeat or all the colours of the design.<\/strong><\/p><p>Expected delivery is 3-5 working days within the UK via Royal Mail.<\/p><p>We also offer an express tracked delivery service via UPS.<\/p>",
+            "page": ""
+          }
+        },
+        "ff1d0cb0-f61f-4609-bb38-f357961bba27": {
+          "type": "tab",
+          "settings": {
+            "title": "Delivery & Returns",
+            "content": "<p><a href=\"\/pages\/how-much-will-my-delivery-cost\" title=\"HOW MUCH WILL MY DELIVERY COST?\">HOW MUCH WILL MY DELIVERY COST?<\/a><\/p><p><\/p><p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/a\/returns\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/a\/returns\">RETURNS PORTAL & T&C's <\/a><\/p>",
+            "page": ""
+          }
+        },
+        "fd951bb7-b55b-4b6b-a161-aebb78397c58": {
+          "type": "tab",
+          "settings": {
+            "title": "FAQ",
+            "content": "<p><a href=\"https:\/\/woodchipandmagnolia.gorgias.help\/en-US\" title=\"https:\/\/woodchipandmagnolia.gorgias.help\/en-US\">Frequently Asked Questions <\/a><\/p>",
+            "page": "frequently-asked-questions"
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": true
+          }
+        },
+        "181bc123-4c0a-4142-a91a-63b59b3d71f0": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "80d9a6c2-5a6b-4703-977d-0a5fb8bec10e",
+        "e27c1421-7cfe-4a74-9892-e6fc94b14bf1",
+        "6ffaa71b-741a-45df-81ef-29b1cffde6dc",
+        "dcbcec38-212d-4671-a750-47788c230fd5",
+        "ff1d0cb0-f61f-4609-bb38-f357961bba27",
+        "fd951bb7-b55b-4b6b-a161-aebb78397c58",
+        "contact",
+        "181bc123-4c0a-4142-a91a-63b59b3d71f0"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "yotpo-reviews-widget": {
+      "type": "yotpo-reviews-widget",
+      "settings": {
+        "max_width": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "settings": {
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+        "color_scheme": "1"
+      }
+    },
+    "yotpo-ugc-gallery": {
+      "type": "yotpo-ugc-gallery",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "1630426906ac358fd1": {
+      "type": "slideshow-image",
+      "disabled": true,
+      "blocks": {
+        "1630426906ac358fd1-0": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections\/borders",
+            "image": "shopify:\/\/shop_images\/WM-393-03-NIRVANA_BORDER-PASTEL-ROOM-01.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/WM-393-03-NIRVANA_BORDER-PASTEL-ROOM-01.jpg"
+          }
+        },
+        "1630426906ac358fd1-1": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/products\/011-mallard-paint",
+            "image": "shopify:\/\/shop_images\/Mallard_image.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Mallard_image.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1630426906ac358fd1-0",
+        "1630426906ac358fd1-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1630491608e1c06da5": {
+      "type": "advanced-content",
+      "disabled": true,
+      "blocks": {
+        "1630491608e1c06da5-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-04-29_at_18.16.29.png",
+            "link": "https:\/\/www.woodchipandmagnolia.co.uk\/pages\/real-rooms-real-inspiration",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1630491608e1c06da5-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "How to order \n1. Click on CUSTOMISE & BUY add your wall dimensions for an instant preview and cost.\n\n2. Like what you see press simply ADD TO BAG and checkout\n\n3.For additional design manipulation requirements please email details to hello@woodchipandmagnolia.co.uk",
+            "width": "33%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1630491608e1c06da5-0",
+        "1630491608e1c06da5-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16316330625b2311ee": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16316330625b2311ee-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "16316330625b2311ee-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16316330625b2311ee-0",
+        "16316330625b2311ee-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "yotpo-reviews-widget",
+    "recently-viewed",
+    "more-products-vendor",
+    "more-products-collection",
+    "recommendations",
+    "collection-return",
+    "yotpo-ugc-gallery",
+    "1630426906ac358fd1",
+    "1630491608e1c06da5",
+    "16316330625b2311ee"
+  ]
+}

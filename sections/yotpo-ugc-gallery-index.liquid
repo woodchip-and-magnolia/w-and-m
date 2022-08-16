@@ -1,0 +1,49 @@
+
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+  {%- if section.settings.title != blank -%}
+    <div class="page-width">
+      <div class="section-header{% if section.settings.view_all %} section-header--with-link{% endif %}">
+        <h2 class="section-header__title">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="page-width page-width--flush-small">
+    <div
+      class="yotpo yotpo-pictures-widget"
+      data-gallery-id="6154c0c36f8992000bedaac7">
+	</div>
+    
+  </div>
+  
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Yotpo UGC Gallery",
+    "class": "index-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "W\&G in the Wild "
+      },
+    
+      {
+        "type": "checkbox",
+        "id": "divider",
+        "label": "Show section divider",
+        "default": false
+      }
+    ],
+    "presets": [{
+      "name": "Yotpo UGC Gallery"
+    }],
+    "blocks" : []
+  }
+{% endschema %}

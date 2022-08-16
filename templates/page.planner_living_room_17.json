@@ -1,0 +1,453 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16546093182e751d71": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Find_your_Dream_Scheme_1000_x_575px_4.png",
+        "image_width": 560,
+        "subtitle": "YOUR DREAM SCHEME",
+        "title": "North facing living room with some natural light",
+        "text": "<p>As your room faces north, any natural light it receives will be quite cool in tone. To counterbalance the coolness whilst also keeping your room feeling light and bright, you'll want to stick to warmer tones such as pinks and warm neutrals. For a sleek and modern look, try a faux surface wallpaper to add a touch of depth and texture, and opt for complementing paint colours to warm the space up and keep it feeling welcoming.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1654594647fb9437e9": {
+      "type": "text-columns",
+      "blocks": {
+        "1654594647e5e45805-0": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": false,
+            "image": "shopify:\/\/shop_images\/Screenshot_2022-06-07_at_10.38.38.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1654594647e5e45805-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": false,
+            "image": "shopify:\/\/shop_images\/Untitled_design_68.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1654594647e5e45805-2": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": false,
+            "image": "shopify:\/\/shop_images\/Untitled_design_69.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "553b6903-bfe3-439a-871f-94290de0a0a0": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "8de1ddcd-9ed4-42df-8568-db5a4b2c38b0": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "79dd7239-8a53-4f4b-9ea3-c08c8cb81217": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "5d63006d-3ae4-4b85-b80a-40476628372a": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654594647e5e45805-0",
+        "1654594647e5e45805-1",
+        "1654594647e5e45805-2",
+        "553b6903-bfe3-439a-871f-94290de0a0a0",
+        "8de1ddcd-9ed4-42df-8568-db5a4b2c38b0",
+        "79dd7239-8a53-4f4b-9ea3-c08c8cb81217",
+        "5d63006d-3ae4-4b85-b80a-40476628372a"
+      ],
+      "settings": {
+        "title": "Based on your results, our interior design experts recommend...",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "165459502818a92428": {
+      "type": "featured-product",
+      "blocks": {
+        "165459502813539fa4-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "165459502813539fa4-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "165459502813539fa4-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "165459502813539fa4-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "165459502813539fa4-0",
+        "165459502813539fa4-1",
+        "165459502813539fa4-2",
+        "165459502813539fa4-3"
+      ],
+      "settings": {
+        "featured_product": "blush-pink-concrete-wallpaper-wm-034",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "1654595054a85f7ec2": {
+      "type": "featured-product",
+      "blocks": {
+        "1654595054521cda9d-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1654595054521cda9d-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "1654595054521cda9d-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "1654595054521cda9d-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "1654595054521cda9d-0",
+        "1654595054521cda9d-1",
+        "1654595054521cda9d-2",
+        "1654595054521cda9d-3"
+      ],
+      "settings": {
+        "featured_product": "003-pink-cloud-paint",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "right",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": false,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "16545952144e07795a": {
+      "type": "featured-product",
+      "blocks": {
+        "165459521433d327c6-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "165459521433d327c6-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "165459521433d327c6-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "165459521433d327c6-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "165459521433d327c6-0",
+        "165459521433d327c6-1",
+        "165459521433d327c6-2",
+        "165459521433d327c6-3"
+      ],
+      "settings": {
+        "featured_product": "002-magnolia-paint",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": false,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "165459533722bad570": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "16545953372f2d0cb4-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16545953372f2d0cb4-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "16545953372f2d0cb4-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "16545953372f2d0cb4-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "16545953372f2d0cb4-0",
+        "16545953372f2d0cb4-1",
+        "16545953372f2d0cb4-2",
+        "16545953372f2d0cb4-3"
+      ],
+      "settings": {
+        "featured_product": "move-and-flow-cream-linen",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "right",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": false,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": false,
+        "product_video_style": "muted"
+      }
+    },
+    "16545962202682c60e": {
+      "type": "advanced-content",
+      "blocks": {
+        "4f909929-221b-460b-b12b-54629a42db14": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Be Inspired<\/h2>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "07c590f6-6f81-4e8e-9ebe-c0aa84a93641": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_b7e5e605-550c-4ee6-ab53-54510e59eda6.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1654596220cb7cb741-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_e45b7784-0822-4c8a-a1f8-1dd8a532ce48.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "4f909929-221b-460b-b12b-54629a42db14",
+        "07c590f6-6f81-4e8e-9ebe-c0aa84a93641",
+        "1654596220cb7cb741-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1654595651e976e92d": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "16545956510b0776e6-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design_70.png",
+            "image_width": 650,
+            "title": "The Decorating Hub",
+            "text": "<p>Now you have your interior design, find out how to DIY with all the decorating advice, expert tips and how-to's you need at our one-stop advice centre.<\/p>",
+            "button_label": "TAKE ME THERE",
+            "button_link": "shopify:\/\/blogs\/decorating-hub"
+          }
+        },
+        "16545956510b0776e6-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Wisteria_Hysteria_14_1024x1024_6fe5a3ab-59ae-4b52-ab0e-69593abf7b33.webp",
+            "image_width": 650,
+            "title": "Wallpaper Calculator",
+            "text": "<p>Find out how many wallpaper rolls you need for your project with our handy wallpaper calculator tool.<\/p>",
+            "button_label": "LET'S GO",
+            "button_link": "shopify:\/\/blogs\/decorating-hub\/wallpaper-calculator-how-many-rolls-do-i-need"
+          }
+        },
+        "16545956510b0776e6-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design_71.png",
+            "image_width": 650,
+            "title": "Choosing the right fabric",
+            "text": "<p>We explain the different types of fabric and what they mean, so you can make the right fabric choice for your dream scheme.<\/p>",
+            "button_label": "TELL ME MORE",
+            "button_link": "shopify:\/\/blogs\/decorating-hub\/a-guide-to-choosing-the-right-fabric"
+          }
+        }
+      },
+      "block_order": [
+        "16545956510b0776e6-0",
+        "16545956510b0776e6-1",
+        "16545956510b0776e6-2"
+      ],
+      "settings": {
+        "title": "The Practical Bit",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "16545961762a00b8ed": {
+      "type": "yotpo-carousel-index",
+      "settings": {
+        "title": "What our customers are saying",
+        "reviews_page_link_text": "Read all reviews",
+        "reviews_page_link": "shopify:\/\/pages\/reviews",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16546093182e751d71",
+    "1654594647fb9437e9",
+    "165459502818a92428",
+    "1654595054a85f7ec2",
+    "16545952144e07795a",
+    "165459533722bad570",
+    "16545962202682c60e",
+    "1654595651e976e92d",
+    "16545961762a00b8ed"
+  ]
+}

@@ -1,0 +1,123 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+<style>
+.index-section__product-listing .grid-product__actions {
+  display: none;
+}
+</style>
+<div class="page-width">
+  {%- if section.settings.title != blank -%}
+    <div class="section-header">
+      <h2 class="section-header__title">{{ section.settings.title }}</h2>
+    </div>
+  {%- endif -%}
+
+  <div class="new-grid" {% if section.settings.grid_count == "2" %}data-view="large"{% elsif section.settings.grid_count == "3" %}data-view="3-1"{% endif %}>
+    {%- liquid
+      assign isEmpty = true
+      if section.blocks.size > 0
+        assign isEmpty = false
+      endif
+    -%}
+
+    {%- for block in section.blocks -%}
+      {%- liquid
+        assign product = all_products[block.settings.product]
+        render 'product-listing-grid-item', product:product, block: block, cta_buttons: true
+      -%}
+    
+    {%- endfor -%}
+
+    {%- if isEmpty -%}
+      <div class="page-width">
+        <div class="rte">
+          {{ 'home_page.onboarding.no_content' | t }}
+        </div>
+      </div>
+    {%- endif -%}
+
+  </div>
+</div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Featured Product listing",
+    "class": "index-section index-section__product-listing",
+    "max_blocks": 18,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Similar Products"
+      },
+      {
+        "type": "checkbox",
+        "id": "divider",
+        "label": "Show section divider",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "grid_count",
+        "label": "Items per row",
+        "default": "3",
+        "options": [
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          }
+        ]
+      }
+
+    ],
+    "blocks": [
+      {
+        "type": "product_listing",
+        "name": "Product Listing",
+        "settings": [
+          {
+            "id": "product",
+            "type": "product",
+            "label": "Product"
+
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "info": "Defaults to collection title"
+          }
+        ]
+      }
+    ],
+    "presets": [{
+      "name": "Featured Product Listing",
+      "blocks": [
+        {
+          "type": "product_listing"
+        },
+        {
+          "type": "product_listing"
+        },
+        {
+          "type": "product_listing"
+        },
+        {
+          "type": "product_listing"
+        },
+        {
+          "type": "product_listing"
+        },
+        {
+          "type": "product_listing"
+        }
+      ]
+    }]
+  }
+{% endschema %}

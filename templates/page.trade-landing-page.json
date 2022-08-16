@@ -1,0 +1,208 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1652948555d21da277": {
+      "type": "slideshow-split",
+      "blocks": {
+        "1652948555854d4723-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "JOIN OUR TRADE PROGRAM",
+            "title": "For the VIP's",
+            "title_size": 50,
+            "subheading": "Calling all interior designers, architects and professionals in the interiors industry; we're here to make your dream schemes a reality (and as hassle-free as possible!)",
+            "link": "https:\/\/www.woodchipandmagnolia.co.uk\/a\/wsg\/proxy\/signup",
+            "link_text": "JOIN NOW",
+            "link_2": "https:\/\/www.woodchipandmagnolia.co.uk\/a\/wsg\/proxy\/login",
+            "link_text_2": "ALREADY A MEMBER? SIGN IN",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/HOMEPAGE_MOBILE_800_x_600px.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "2"
+          }
+        }
+      },
+      "block_order": [
+        "1652948555854d4723-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16529486885a5f56a7": {
+      "type": "text-columns",
+      "blocks": {
+        "1652948688685fdd58-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2_8ce35563-d13b-43ce-9ba3-e21fc594b2b5.png",
+            "image_width": 650,
+            "title": "Trade Pricing",
+            "text": "<p>- Trade discount on wallpaper, murals, fabric and paint<\/p><p>- FREE samples & swatches<\/p><p>- FREE sample delivery<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1652948688685fdd58-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1_030ea8af-cadc-424c-9291-652fe9716110.png",
+            "image_width": 650,
+            "title": "Bespoke Service",
+            "text": "<p>- Bespoke design service<\/p><p>- Expert colour and design advice<\/p><p>- Direct support contact<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1652948688685fdd58-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_2.png",
+            "image_width": 650,
+            "title": "Priority Delivery",
+            "text": "<p>- Priority service<\/p><p>- Worldwide shipping<\/p><p>- Deliver directly to you, your site or your client<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652948688685fdd58-0",
+        "1652948688685fdd58-1",
+        "1652948688685fdd58-2"
+      ],
+      "settings": {
+        "title": "Why join?",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "1652959916270dec9e": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_1c6aba7d-81f4-486e-b381-7bd9e0ee934f.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Eco Friendly Business",
+        "text": "<p>We pride ourselves on our eco friendly products and ways of working, so you and your clients can be safe in the knowledge that you're working with a business who takes sustainability seriously.<\/p>",
+        "button_label": "ECO MANIFESTO",
+        "button_link": "shopify:\/\/pages\/eco-manifesto-1",
+        "button_style": "primary",
+        "align_text": "right",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "165295999281fe4d7d": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "High Quality Products",
+        "text": "<p>We design and manufacture everything in house to order. This gives us  full control over the whole process from beginning to end, to ensure the delivery of high quality long-lasting products for your project.<\/p>",
+        "button_label": "READ MORE",
+        "button_link": "shopify:\/\/blogs\/news\/why-choose-us",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1652960211813bfe6f": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/erf.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Bold & Beautiful Designs",
+        "text": "<p>We want to encourage individuality and celebrate uniqueness with our bold and beautiful designs. We don't do trends; instead we believe homes should be designed around their unique quirks, as well as your clients own unique style (which is where our bespoke service comes in!).<\/p>",
+        "button_label": "LEARN MORE",
+        "button_link": "shopify:\/\/blogs\/news\/the-reasons-why-we-dont-follow-trends",
+        "button_style": "primary",
+        "align_text": "right",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "16529491750d44cbef": {
+      "type": "text-columns",
+      "blocks": {
+        "1652949175c0050a2a-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WM-408-07-ARCADIA-BLUSH-02.jpg",
+            "image_width": 650,
+            "title": "Wall Coverings",
+            "text": "<p>Bold & beautiful eco friendly designer wallpaper, borders and murals<\/p><p>✔️ FSC Certified paper<\/p><p>✔️ Printed with Greenguard Gold Certified ink<\/p><p>✔️ Paste the wall application<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/shop-all-wallpaper-1"
+          }
+        },
+        "1652949175c0050a2a-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_3.png",
+            "image_width": 650,
+            "title": "Paint",
+            "text": "<p>15 highly pigmented paint colours inspired by nature<\/p><p>✔️ Designed to complement our wallpapers, borders and murals<\/p><p>✔️ Low VOC and eco friendly<\/p><p>✔️ Water based<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/paint"
+          }
+        },
+        "1652949175c0050a2a-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/We_ve_moved_1.png",
+            "image_width": 650,
+            "title": "Fabric",
+            "text": "<p>Luxury linen and velvet fabric available by the meter<\/p><p>✔️ Swatch sample service<\/p><p>✔️ FR treated<\/p><p>✔️ Made to order<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/shop-all-fabric"
+          }
+        }
+      },
+      "block_order": [
+        "1652949175c0050a2a-0",
+        "1652949175c0050a2a-1",
+        "1652949175c0050a2a-2"
+      ],
+      "settings": {
+        "title": "Explore Woodchip & Magnolia",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652948555d21da277",
+    "16529486885a5f56a7",
+    "1652959916270dec9e",
+    "165295999281fe4d7d",
+    "1652960211813bfe6f",
+    "16529491750d44cbef"
+  ]
+}

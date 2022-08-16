@@ -1,0 +1,137 @@
+<script>
+document.addEventListener('page:loaded', function(evt) {
+  // init quantity selectors in product listing section
+    var listingEl = document.querySelectorAll(".index-section__product-listing");
+    if (listingEl.length > 0) {
+      //console.log("priduct listing");
+      document.querySelectorAll('.js-qty__wrapper').forEach(el => {
+        new theme.QtySelector(el, {
+          namespace: '.product'
+        });
+      });
+    }
+});
+// add to cart
+const addFeaturedListing = function (e) {
+    //console.log(e, "addFeaturedListing");
+
+    let variantId = e.target.getAttribute("data-id");
+    let quantity = e.target.closest('.grid-product__listing-actions').querySelector(".js-qty__num").value;
+    variantId = parseInt(variantId);
+    quantity = parseInt(quantity);
+
+    //# add the items to the data object we need to pass to the fetch call
+    var data = {
+        "quantity": quantity,
+        "id": variantId
+    }
+
+    fetch('/cart/add.js', {
+        body: JSON.stringify(data),
+        credentials: 'same-origin',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-Requested-With': 'xmlhttprequest'
+        },
+        method: 'POST'
+    }).then((response) => {
+        return response.json();
+    }).then((json) => {
+        /* yay! our products were added - do something here to indicate to the user */
+        var cartContents = fetch('/cart.js')
+          .then(response => response.json())
+          .then(data => {
+          document.getElementById("HeaderCartTrigger").querySelector(".cart-link__bubble-num").innerHTML = data.item_count;
+          document.dispatchEvent(new CustomEvent('cart:build'));
+          document.dispatchEvent(new CustomEvent('cart:open'));
+
+        });
+    }).catch((err) => {
+        /* uh oh, we have error. */
+        console.error(err)
+    });
+}
+
+
+var ready = (callback) => {
+  if (document.readyState != "loading") callback();
+  else document.addEventListener("DOMContentLoaded", callback);
+}
+
+ready(() => {
+
+
+  // update variant
+  const updateVariantListing = function (e) {
+  let variantInput = e.target.closest(".grid-product__listing-variants");
+  const fieldsets = Array.from(variantInput.querySelectorAll('.variant-input-wrap'));
+      this.options = fieldsets.map((fieldset) => {
+        //console.log(Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value, "fieldset selected values");
+        return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
+      });
+      //console.log(this,"this", this.options, "this.options")
+        optionsFilter = this.options.join(' / ')
+
+      //  console.log(optionsFilter, "optionsFilter");
+      let productHandle = e.target.closest(".grid-item__content").querySelector(".grid-item__link");
+      //  console.log(productHandle, "productHandle")
+      let productUrl = productHandle.href;
+    //  console.log(productUrl, "productUrl")
+      let listingAddToCart = e.target.closest(".grid-product__listing-actions").querySelector(".listing-add-to-cart");
+      let listingPrice = e.target.closest(".grid-item__content").querySelector(".grid-product__price--current");
+        fetch(productUrl + '.js', {
+           //body: JSON.stringify(data),
+           credentials: 'same-origin',
+           headers: {
+             'Content-Type': 'application/json',
+             'X-Requested-With':'xmlhttprequest'
+           },
+           method: 'GET'
+         }).then((response) => {
+           return response.json();
+         }).then((json) => {
+           //console.log(json, "json");
+           var variants= json.variants;
+          // console.log(json.variants, "json.variants");
+           var result = variants.filter(x => x.title === optionsFilter);
+          // console.log(result[0].id, "result[0].id" );
+           listingAddToCart.setAttribute("data-id", result[0].id);
+           var symbol = theme.moneyFormat.split('{')[0];
+           var price = theme.Currency.formatMoney(result[0].price, theme.settings.moneyFormat);
+
+
+            //if (listingPrice.getElementsByClassName("grid-product__price--from").length > 0) {
+               listingPrice.innerHTML = '<span aria-hidden="true"> <span class="money">' + price + '</span></span>'
+            //}
+
+         }).catch((err) => {
+           /* uh oh, we have error. */
+           console.error(err)
+         });
+
+
+  }
+  let variantSwatch = document.querySelectorAll(".grid-product__listing-actions .variant-input-wrap .variant-input");
+  variantSwatch.forEach(swatch => {
+    //swatch.addEventListener('click', updateVariantListing(e));
+    swatch.addEventListener('click', function(e){
+      updateVariantListing(e);
+    });
+  });
+
+
+  let listingAddBtns = document.querySelectorAll(".listing-add-to-cart");
+  //console.log(listingAddBtns, "listbtns");
+  listingAddBtns.forEach(listingAddBtn => {
+    //console.log(listingAddBtn);
+    listingAddBtn.addEventListener('click', function(e) {
+      addFeaturedListing(e)
+    });
+  });
+
+
+
+
+});
+
+</script>

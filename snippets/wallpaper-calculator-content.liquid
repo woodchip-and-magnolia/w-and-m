@@ -1,0 +1,172 @@
+ {% assign isModal = true %}
+
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+	
+  unless thumbnail_position
+    assign thumbnail_position = 'beside'
+  endunless 
+
+  assign product_zoom_size = '1800x1800'
+
+  assign enableHistory = true
+  if isModal or isAjax
+    assign enableHistory = false
+  endif
+  
+  assign image_position = "left"
+  assign image_container_width = "medium"
+
+  case image_container_width
+    when 'small'
+      assign product_image_width = 'medium-up--two-fifths'
+      assign product_description_width = 'medium-up--three-fifths'
+    when 'medium'
+      assign product_image_width = 'medium-up--one-half'
+      assign product_description_width = 'medium-up--one-half'
+    when 'large'
+      assign product_image_width = 'medium-up--three-fifths'
+      assign product_description_width = 'medium-up--two-fifths'
+  endcase
+-%}
+
+  <div id="ProductSection-{{ section_id }}-{{ product.id }}"
+    class="product-section"
+    data-section-id="{{ section_id }}"
+    data-section-type="product"
+    data-product-id="{{ product.id }}"
+    data-product-handle="{{ product.handle }}"
+    data-product-title="{{ product.title | escape }}"
+    data-history="{{ enableHistory }}"
+    data-modal="{{ isModal }}">
+
+    {%- render 'product-template-variables', product: product, current_variant: current_variant -%}
+
+    {%- capture product_header -%}
+      {%- if settings.show_breadcrumbs and isModal != true -%}
+        {%- render 'breadcrumbs' -%}
+      {%- endif -%}
+
+      {%- if isModal -%}
+        <p class="h2 product-single__title">
+          {{ product.title }}
+        </p>
+      {%- else -%}
+        <h1 class="h2 product-single__title">
+          {%- unless product.empty? -%}
+            {{ product.title }}
+          {%- else -%}
+            {{ 'home_page.onboarding.product_title' | t }}
+          {%- endunless -%}
+        </h1>
+
+
+      {%- endif -%}
+
+      {%- if settings.vendor_enable or sku_enable -%}
+        <div class="product-single__vendor-sku">
+          {%- if settings.vendor_enable -%}
+            <span class="product-single__vendor">
+              {%- assign vendor_handle = product.vendor | handleize -%}
+              {%- if collections[vendor_handle] != empty -%}
+                <a href="{{ routes.collections_url }}/{{ collections[vendor_handle].handle }}">
+                  {{ collections[vendor_handle].title }}
+                </a>
+              {%- else -%}
+                {{ product.vendor | link_to_vendor }}
+              {%- endif -%}
+            </span>
+          {%- endif -%}
+
+          {%- if sku_enable -%}
+            <span data-sku class="product-single__sku{% if current_variant.sku == blank %} hide{% endif %}">
+              SKU: <span data-sku-id>{{ current_variant.sku }}</span>
+            </span>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    {%- endcapture -%}
+
+    <div class="page-content page-content--product">
+      <div class="page-width">
+
+        <div class="product-single__header--mobile medium-up--hide">
+          {{ product_header }}
+        </div>
+
+        <div class="product-grid__container grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
+          {%- if image_position == 'left' -%}
+            <div class="grid__item {{ product_image_width }} product-single__sticky">
+              {%- render 'product-images',
+                section_id: section_id,
+                product: product,
+                isModal: isModal,
+                image_position: image_position,
+                image_size: image_size,
+                product_zoom_enable: product_zoom_enable,
+                product_zoom_size: product_zoom_size,
+                thumbnail_arrows: thumbnail_arrows,
+                thumbnail_position: thumbnail_position,
+                video_looping: video_looping,
+                video_style: video_style
+              -%}
+
+             
+            </div>
+          {%- endif -%}
+			
+          <div class="product-grid__content product-single__sticky grid__item {{ product_description_width }}">
+
+            <div class="product-single__meta">
+              <div class="product-block product-block--header product-single__header small--hide">
+                {{ product_header }}
+              </div>
+              <div class="switch_properties"> 
+                <a href="#" class="measurement inactive">inch</a> <span>|</span> 
+                <a href="#" class="measurement active">cm</a> 
+              </div>
+            </div>
+           
+            <div id="wallpaperCalculatorInputs">
+              <div class="wallMeasurements">
+                <span class="wall-number"><span class="wall-number__text">Wall</span> <span class="number">1</span> <span class="wall-number__spacer">|</span> </span>				
+                <label class="input-label"><span  class="input-label__text">Width</span> <input name="width[]" type="number" min="0" value="300" class="width measurement-value"/><span class="measurement-label">cm</span></label>
+                <label class="input-label"><span  class="input-label__text">Height</span> <input name="height[]" type="number" min="0" value="240" class="height measurement-value"/><span class="measurement-label">cm</span></label>	
+              </div>
+			</div>
+       
+              
+              <button id="addNewWall" type="button" class="add-new-wall-button" title="{{ 'products.product.add_to_cart' | t }}" tabindex="-1">
+                <span class="btn btn--circle btn--icon">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewBox="0 0 64 64"><path class="cls-1" d="M32 9v46m23-23H9"/></svg>
+                  <span class="icon__fallback-text">Add Wall</span>
+                </span>
+              </button>
+			  <div id="wallpaperCalculatorTotals">	
+                <span class="bespoke-contact" style="display:none;">Your wall height requires a bespoke version of this design, to continue please click the customise and buy button below or <a href="/pages/contact-us">contact us.</a></span>
+                <span class="total-cost" style="display:none;">Total Cost: <span class="money">{{ 0 | money }}</span></span>	
+              	<span class="rolls-needed" style="display:none;">You will need <span class="quantity">X</span> rolls</span>	
+              </div>
+
+              <div id="wallpaperCalculatorAddToCart">
+                <button id="wallpaperCalculate" type="button" class="btn btn--full ">Calculate</button>
+                <button id="wallpaperAddToCart" data-variant data-quantity disabled type="button" class="btn btn--full btn--secondary">Add to Cart</button>
+                {% capture mural_handle %}{{ product.handle | append:"_mural"}}{% endcapture %}
+                <button id="wallpaperCustomize" 
+                        onclick="window.location.href = '/products' + '/{{ mural_handle }}'"
+                        data-handle="{{ product.handle | append:"_mural"}}" style="display:none;" type="button" class="btn btn--full btn--secondary">Customize &amp Buy</button>
+           	  </div>
+            	
+              </div>
+
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+
+
+

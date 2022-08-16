@@ -1,0 +1,502 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "faq-0": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Customer Services",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "Get in touch",
+            "text": "<p><strong>Call -<\/strong> 01254 241100<\/p><p><strong>Chat  -Pink speech bubble bottom right of the website <\/strong><\/p><p><strong>Email - hello@woodchipandmagnolia.co.uk<\/strong><\/p>"
+          }
+        },
+        "feb6cc10-afa7-45f3-9f4e-7467e7603c23": {
+          "type": "question",
+          "settings": {
+            "title": "How to Order, Preview and Customise a Wall Mural",
+            "text": "<p>1. Click on CUSTOMISE & BUY add your wall dimensions for an instant preview and cost.<br\/><br\/>2. Like what you see press simply ADD TO BAG and checkout<br\/><br\/>3.For additional design manipulation requirements please email details to hello@woodchipandmagnolia.co.uk<\/p><p>Once purchased we will then provide a preview image of your mural before we manufacture,at this point we can tweak the design (should you require) e.g. flip, adjust the positioning of elements etc, reposition so the mural is exactly as you require it, the preview will clearly show features on the wall (doors, windows, sofas etc) and how your mural will be positioned, we will only proceed to manufacture once you are happy with it and have approved it.<\/p><p><br\/>If you do require a preview please provide very clear instructions and measurements.<br\/>We will provide one preview and one adjustment to the initial preview gratis but additional alterations after this will be subjected to a £50 charge per revision.<\/p>"
+          }
+        },
+        "00925f39-8cb1-4b4f-b900-6784ec6abb95": {
+          "type": "question",
+          "settings": {
+            "title": "How to Apply for a Trade Account",
+            "text": "<p>Our trade program is available to design professionals for their respective services and projects. Unfortunately at this time we do not offer trade approval for retail or e-commerce businesses who are interested in reselling our designs.<\/p><p><\/p><p>We have recently made changes to our trade program.<\/p><p><br\/><strong>To become a member or to reapply for a Woodchip & Magnolia trade account - <\/strong><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/a\/wsg\/proxy\/signup\" target=\"_blank\">APPLY HERE <\/a><\/p><p><br\/>For more info about our trade program click <a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/pages\/woodchip-magnolia-trade\" target=\"_blank\">here <\/a><\/p>"
+          }
+        },
+        "0f6276ee-a5c2-4e3b-bd67-6d5c37105a58": {
+          "type": "question",
+          "settings": {
+            "title": "Fire Ratings for Wallpaper & Fabrics",
+            "text": "<p>All our Wallcoverings and fabrics are fire rated as below:-<\/p><p><br\/><strong>Wallpapers.<\/strong><\/p><p><br\/>All our wallpapers reach the highest EU fire rating; EN15102 \/ EN13501 B SI, do. <br\/>They are all paste the wall and are strippable and washable, they are very durable and suitable for commercial environments.<\/p><p><br\/><strong>Fabrics.<\/strong><\/p><p><br\/>All our fabrics are available as:-<br\/>None FR treated:- (This is usually used for residential draper and cushions etc).<br\/>STANDARD FR TREATED:-  Match tested to ensure they will not burn with a cigarette and match against them.(This treatment is usually used in residential upholstery and commercial curtains and cushions etc).<br\/>The above fabric complies with BS 5852:1<br\/>CRIB 5 TREATED:- Crib and match tested, to ensure they will not burn with a cigarette and a match against them plus a wooden stack called a crib is placed on the fabric and ignited.(This treatment is usually used in commercial and hospitality environments).<br\/>The above fabric complies with BS 5852:2006 Clause 11<br\/>All our products are certified for the above.<\/p>"
+          }
+        },
+        "c786f4c6-9fde-41b9-9b61-5f92a5677cb1": {
+          "type": "question",
+          "settings": {
+            "title": "My Discount Code doesn’t work",
+            "text": "<p>I'm really sorry but if you have found a discount its just clickbait it has not been created by Woodchip & Magnolia. <\/p><p><br\/>We don't discount at all anymore as we have found it has only harmed our brand,we are a small family business and we have found that discounting has not helped us at all.<\/p>"
+          }
+        },
+        "9d642613-0ca6-4024-b4f6-20b29072fad8": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Samples",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "53dea1f9-2e44-4cae-a7b6-e61bb07a2cfc": {
+          "type": "question",
+          "settings": {
+            "title": "Sample Service",
+            "text": "<p>We offer a sample service across our full range of wallpaper, murals, fabrics and paints with FREE SHIPPING<\/p><p><strong>Wallpaper samples<\/strong> are full-width 52cm x 22cm in size.<\/p><p><strong>The following wallpaper sample<\/strong>s e.g Ava Marika, Onism, George , Legs Eleven are 52cm x 52cm <\/p><p><strong>Mural samples<\/strong> are 52cm x 52cm <\/p><p><strong>Paint samples A5 in size <\/strong>are recyclable and have been hand-painted onto our wallpaper roll ends + = 0 wallpaper waste – currently only available in a Matt finish<\/p><p><strong>Fabric Samples 25 x 22 cm <\/strong><\/p><p>Onism fabric 50 x 20 cm<\/p><p>Ava Marika fabric 42 cm x 30 cm<\/p><p><strong>Sample swatches are intended as a colour and texture sample only and do not show the full design repeat or all the colours of the design.<\/strong><\/p><p>MAX of 2 samples of the same design. We have the right to refund orders of multiple orders of the same design.<\/p><p>Expected delivery is 3-5 working days via Royal Mail, unfortunately we cannot provide tracking information for sample orders.<\/p>"
+          }
+        },
+        "6927641e-27ce-4c37-8aa8-c80e7a5b9397": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have a pattern book or catalogue of your wallpapers?",
+            "text": "<p>Unfortunately we do not have a pattern book or catalogue as our collection is always growing and the available products are visually represented on the website. Contact us via the contact form if you are looking for something in particular or call us <a href=\"tel:01254 241100\">01254 241100<\/a><\/p>"
+          }
+        },
+        "2f4faba5-8d71-4ca4-946c-a0cee04f1e09": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Delivery & Returns",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "498ae1d1-7b8a-4273-a954-de6a76780366": {
+          "type": "question",
+          "settings": {
+            "title": "Returns Page &  T&C's",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/a\/returns\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/a\/returns\">Returns section & T&C's <\/a><\/p>"
+          }
+        },
+        "00ec2b0b-a7dc-4b7c-9835-019c0cfdfe9f": {
+          "type": "question",
+          "settings": {
+            "title": "How Do I Track my Order?",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/apps\/tracktor\/track\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/apps\/tracktor\/track\">Track your roll order <\/a><\/p><p>We do not provide tracking information for sample orders. <\/p><p>If you haven’t received your sample order please<a href=\"\/pages\/contact-us\" title=\"Hello\"> contact us <\/a><\/p><p><\/p>"
+          }
+        },
+        "ad874d8b-e551-4b59-897e-34b7cd43e97c": {
+          "type": "rich-text",
+          "settings": {
+            "title": "How To Practical Tips & Advice",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "9f1ce6bf-e115-4365-baf1-bb6e4d6d3a55": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use your Wallpaper in a Bathroom",
+            "text": "<p>Our wallpaper is very hardwearing and is often used in bathrooms, however we do advise that it is kept as dry as possible that it does not come in direct contact with water and that the room is well ventilated.<\/p><p><br\/>Sometimes our customers use a clear varnish such as Polyvine Decorators Varnish in ‘Dead Flat’ on top of the wallpaper as this provide's some added water resistance.<\/p>"
+          }
+        },
+        "8d1161a7-5f26-4179-bf0f-eceb7b3044a8": {
+          "type": "question",
+          "settings": {
+            "title": "Which Paste to Use",
+            "text": "<p>All our wallpapers are ‘<strong>Paste The Wall’<\/strong> - this means the decorator should paste the wall and <strong>NOT <\/strong>the paper.<br\/>We would advise a premium premixed tub of <strong>'Paste The Wall' <\/strong> adhesive widely available online or at your local DIY store.<\/p><p>Nina like's to use <em>Solvite paste the wall<\/em> it rolls on pink and dries clear!<\/p><p>*Do NOT use self-mix adhesives, all purpose or heavy duty paste these are not suitable for our beautiful designs.<br\/>All about paste \/\/ <a href=\"https:\/\/www.youtube.com\/watch?v=d_g1BmpodVw&index=1&list=PLp1T4oOAV8nQEbV-FlZ0rp3nZPnBzfBFs\" target=\"_blank\"><em>You Tube <\/em><\/a>video <\/p>"
+          }
+        },
+        "03dca2a6-c3c2-4e50-9d6f-656a58a40513": {
+          "type": "question",
+          "settings": {
+            "title": "How Many Rolls",
+            "text": "<p>We are working on a wallpaper calculator but our rolls are not all standard.<\/p><p>So please <a href=\"\/pages\/contact-us\" title=\"Hello\">contact us<\/a> we are super happy to work out how many rolls or panels of wallpaper you would need.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-0",
+        "faq-1",
+        "feb6cc10-afa7-45f3-9f4e-7467e7603c23",
+        "00925f39-8cb1-4b4f-b900-6784ec6abb95",
+        "0f6276ee-a5c2-4e3b-bd67-6d5c37105a58",
+        "c786f4c6-9fde-41b9-9b61-5f92a5677cb1",
+        "9d642613-0ca6-4024-b4f6-20b29072fad8",
+        "53dea1f9-2e44-4cae-a7b6-e61bb07a2cfc",
+        "6927641e-27ce-4c37-8aa8-c80e7a5b9397",
+        "2f4faba5-8d71-4ca4-946c-a0cee04f1e09",
+        "498ae1d1-7b8a-4273-a954-de6a76780366",
+        "00ec2b0b-a7dc-4b7c-9835-019c0cfdfe9f",
+        "ad874d8b-e551-4b59-897e-34b7cd43e97c",
+        "9f1ce6bf-e115-4365-baf1-bb6e4d6d3a55",
+        "8d1161a7-5f26-4179-bf0f-eceb7b3044a8",
+        "03dca2a6-c3c2-4e50-9d6f-656a58a40513"
+      ],
+      "settings": {
+        "title": "The Most Frequently Asked Questions"
+      }
+    },
+    "16322375108d36fb1c": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "83bdde62-d238-4e1d-985b-847c0e07ae4a": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Hanging Instructions",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "16322375108d36fb1c-0": {
+          "type": "question",
+          "settings": {
+            "title": "How to Hang Wallpaper",
+            "text": "<p><a href=\"\/pages\/wallcovering-hanging-instructions\" title=\"Wallpaper Hanging Instructions\">Wallpaper Hanging Instructions <\/a><\/p>"
+          }
+        },
+        "16322375108d36fb1c-1": {
+          "type": "question",
+          "settings": {
+            "title": "How to Hang a Wall Mural",
+            "text": "<p><a href=\"\/pages\/how-to-hang-a-wall-mural\" title=\"How to hang a wall mural\">How to Hang a Wall Mural <\/a><\/p>"
+          }
+        },
+        "aa6148d0-4466-429d-9722-95f578a0d489": {
+          "type": "question",
+          "settings": {
+            "title": "6 Panel Hanging Instructions",
+            "text": "<p><a href=\"\/pages\/woodchip-and-magnolia-6-panel-hanging-instructions\" title=\"woodchip and magnolia 6 panel hanging instructions\">6 Panel Hanging Instructions <\/a><\/p>"
+          }
+        },
+        "95ff4500-d26e-4660-a21d-b7e23a3368b8": {
+          "type": "question",
+          "settings": {
+            "title": "12 Panel Hanging Instructions",
+            "text": "<p><a href=\"\/pages\/woodchip-and-magnolia-12-panel-hanging-instructions\" title=\"Woodchip and magnolia 12 panel hanging instructions\">12 Panel Hanging Instructions <\/a><\/p>"
+          }
+        },
+        "7403a8c2-902f-4ed8-b560-58b831321658": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Press",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "ad4c4b29-99f2-441f-9a5a-15d6877a3300": {
+          "type": "question",
+          "settings": {
+            "title": "Press Office",
+            "text": "<p><a href=\"https:\/\/www.pressloft.com\/app\/woodchipandmagnolia\" title=\"https:\/\/www.pressloft.com\/app\/woodchipandmagnolia\">VISIT OUR PRESS ROOM<\/a><\/p>"
+          }
+        },
+        "70358379-4f63-4836-956e-fa0771b097fe": {
+          "type": "question",
+          "settings": {
+            "title": "Blog and Social Media Collaborations",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "83bdde62-d238-4e1d-985b-847c0e07ae4a",
+        "16322375108d36fb1c-0",
+        "16322375108d36fb1c-1",
+        "aa6148d0-4466-429d-9722-95f578a0d489",
+        "95ff4500-d26e-4660-a21d-b7e23a3368b8",
+        "7403a8c2-902f-4ed8-b560-58b831321658",
+        "ad4c4b29-99f2-441f-9a5a-15d6877a3300",
+        "70358379-4f63-4836-956e-fa0771b097fe"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1653468258747d6f69": {
+      "type": "faq",
+      "blocks": {
+        "1653468258a44bd833-0": {
+          "type": "question",
+          "settings": {
+            "title": "Customer Service",
+            "text": "<p>Here at Woodchip & Magnolia we pride ourselves on our service and relationships with our customers, which is why we have a customer service team dedicated to helping you on your Woodchip & Magnolia journey. <\/p><p>To get in touch with us, either call us on 01254 241 100 or email us at <em>hello@woodchipandmagnolia.co.uk<\/em>.<\/p><p>You can also reach us via chat at the pink speech bubble to the bottom right hand side of our website or for anything urgent, DM us via Instagram.<\/p><p>Our phone and chat lines are open 9am-5pm (GMT) Monday-Thursday (excluding holidays) and emails will be responded to within 24 hours during these times.<\/p>"
+          }
+        },
+        "1653468258a44bd833-1": {
+          "type": "question",
+          "settings": {
+            "title": "How do I apply for a Trade Account?",
+            "text": "<p>We're here to support our trades, so if you're a designer, decorator, developer, architect or stylist <a href=\"\/pages\/woodchip-magnolia-trade\" target=\"_blank\" title=\"Woodchip & Magnolia Trade\">click here<\/a> to sign up to or access your existing trade account.<\/p>"
+          }
+        },
+        "265dcf3e-1c68-45f7-ad3e-0333c065cf96": {
+          "type": "question",
+          "settings": {
+            "title": "Why does my discount code not work?",
+            "text": "<p>Unfortunately we don't discount our products due to us being a small family-owned business. <\/p><p>If you've found a discount code, it's probably clickbait and hasn't come from us.<\/p><p>Our promise to you however is that our products are worth the price tag! <a href=\"\/blogs\/news\/say-no-to-black-friday\" target=\"_blank\" title=\"Say NO to Black Friday\">Read this blog post<\/a> to find out why.<\/p>"
+          }
+        },
+        "2a3e1f16-2c97-4dce-a746-8cc9fdd69b2f": {
+          "type": "question",
+          "settings": {
+            "title": "What can I return (UK)?",
+            "text": "<p><strong>Wallpaper<\/strong><\/p><p>We offer FREE UK returns on wallpaper within 30 days of shipment.<\/p><p>We encourage all of our customers to check their wallpaper rolls, and that they're happy with the application method, within these 30 days as unfortunately we cannot accept returns outside of this time period. <\/p><p>We also advise that rolls are checked before cutting and hanging as we cannot accept claims after cutting and hanging of the product.<\/p><p>Unwanted wallpapers should be returned in an unopened, undamaged, sealed box and in a fully re-sellable condition.<\/p><p><strong>Murals<\/strong><\/p><p>Due to the bespoke nature of our customised murals, we cannot accept returns on these items if the measurements have been <\/p><p>We encourage all of our customers to check their murals, and that they're happy with the application method, within these 30 days as unfortunately we cannot accept claims after hanging or cutting of the product.<\/p><p><strong>Paint<\/strong><\/p><p>We cannot accept returns on paint unless faulty.<\/p><p>We advise customers to check colour accuracy before applying paint as we are not liable for the cost of redecorating due to the application of incorrect coloir, or the failure to follow manufactureres instructions (which can be found here).<\/p><p><strong>Fabric<\/strong><\/p><p>We cannot accept returns on fabric unless faulty.<\/p><p>We cannot refund any amount of money for labour spent or incurred after fabrics have been cut and made up into blinds, curtains etc.<\/p><p><strong>Customised products<\/strong><\/p><p>We're also unable to accept returns on any products which have been supllied to your exact specifications.<\/p><p>All of our products are manufactured to order therefore processed orders might be subject to a 20% re-stocking fee.<\/p><p><\/p>"
+          }
+        },
+        "911d783e-581d-4f38-8087-49e6a955be9d": {
+          "type": "question",
+          "settings": {
+            "title": "What can I return (International)?",
+            "text": "<p>Please email <em>hello@woodchipandmagnolia.co.uk <\/em>to start the return process.<\/p><p>If you are returning an item from outside of the UK, we suggest using an international courier. All costs are the responsibility of the customer. <\/p><p><strong>Wallpaper<\/strong><\/p><p>We encourage all of our customers to check their wallpaper rolls, and that they're happy with the application method, within these 30 days as unfortunately we cannot accept returns outside of this time period. <\/p><p>We also advise that rolls are checked before cutting and hanging as we cannot accept claims after cutting and hanging of the product.<\/p><p>Unwanted wallpapers should be returned in an unopened, undamaged, sealed box and in a fully re-sellable condition.<\/p><p><strong>Murals<\/strong><\/p><p>Due to the bespoke nature of our customised murals, we cannot accept returns on these items if the measurements have been <\/p><p>We encourage all of our customers to check their murals, and that they're happy with the application method, within these 30 days as unfortunately we cannot accept claims after hanging or cutting of the product.<\/p><p><strong>Paint<\/strong><\/p><p>We cannot accept returns on paint unless faulty.<\/p><p>We advise customers to check colour accuracy before applying paint as we are not liable for the cost of redecorating due to the application of incorrect coloir, or the failure to follow manufactureres instructions (which can be found here).<\/p><p><strong>Fabric<\/strong><\/p><p>We cannot accept returns on fabric unless faulty.<\/p><p>We cannot refund any amount of money for labour spent or incurred after fabrics have been cut and made up into blinds, curtains etc.<\/p><p><strong>Customised products<\/strong><\/p><p>We're also unable to accept returns on any products which have been supllied to your exact specifications.<\/p><p>All of our products are manufactured to order therefore processed orders might be subject to a 20% re-stocking fee.<\/p><p><\/p>"
+          }
+        },
+        "61b8e4b6-9222-41a6-9fcd-adac616d427d": {
+          "type": "question",
+          "settings": {
+            "title": "How do I return (UK)?",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/a\/returns\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/a\/returns\">Click here<\/a> to go to our returns page.<\/p><p>Simply enter your email address and WM number in the field provided and click start.<\/p><p>Follow the instructions and select which wallpaper rolls you'd like to return.<\/p><p>You will recieve a confirmation email with the shipping guidelines once the return request is approved.<\/p>"
+          }
+        },
+        "4ebaa231-b771-4616-a58e-e0389a507f55": {
+          "type": "question",
+          "settings": {
+            "title": "How do I return (International)?",
+            "text": "<p>Please email <em>hello@woodchipandmagnolia.co.uk <\/em>to start the return process<\/p><p>If you are returning an item from outside of the UK, we suggest using an international courier. All costs are the responsibility of the customer<\/p>"
+          }
+        },
+        "b9e5498c-af20-42be-bb1f-d38659c77cf3": {
+          "type": "question",
+          "settings": {
+            "title": "What if my product is faulty?",
+            "text": "<p>We work really hard to make sure our products reach you in perfect condition. As we manufacture everything to order in house, we have full control over the entire process and are able to quality check all of our wallpapers, murals, borders and fabrics by eye before shipping out to you. <\/p><p>However, should you have an issue with a product, please get in touch with us at <em>hello@woodchipandmagnolia.co.uk <\/em>within 30 days of shipment.<\/p><p>We cannot accept claims of faulty products outside of this 30 day time period and so we advise all of our customers to check their products thoroughly within this time frame. <\/p>"
+          }
+        },
+        "564e54c0-997f-47f9-9786-e584c920994c": {
+          "type": "question",
+          "settings": {
+            "title": "How can I track my order?",
+            "text": "<p><a href=\"https:\/\/help.woodchipandmagnolia.co.uk\/en-US\/ssp\/login\" target=\"_blank\" title=\"https:\/\/help.woodchipandmagnolia.co.uk\/en-US\/ssp\/login\">Click here<\/a> to track your order.<\/p><p>We do not provide tracking information for sample orders.<\/p><p>If you haven’t received your sample order please, get in touch at <em>hello@woodchipandmagnolia.co.uk<\/em><\/p>"
+          }
+        },
+        "20f51dd0-e301-495d-925c-3734ea658e38": {
+          "type": "question",
+          "settings": {
+            "title": "How much does delivery cost (UK)?",
+            "text": "<p><strong>Wallpaper, Borders, Bespoke Murals & Paint<\/strong><\/p><p>We offer FREE UK delivery on wallpaper orders over £100 (1-3 working days)<\/p><p>For orders below £100 delivery costs £8<\/p><p><strong>Fabric<\/strong><\/p><p>Express delivery £12 (1-3 working days)<\/p><p><strong>Samples<\/strong><\/p><p>- FREE via Royal Mail <\/p><p><strong>If your order includes Fabric and\/or other products you will be charged £12 for delivery.<\/strong><\/p><p><em>All of the above excludes Northern Ireland, Guernsey, jersey and Isle of Man and applies to NON trade customers only<\/em><\/p>"
+          }
+        },
+        "62e8657e-ad48-4030-ae99-fe5c99af3e8d": {
+          "type": "question",
+          "settings": {
+            "title": "How much does delivery cost (International)?",
+            "text": "<p>Shipping is calculated at checkout.<\/p><p>For further help and advice, please get in touch at <em>hello@woodchipandmagnolia.co.uk<\/em> <\/p><p>Within the email please provide the specific design and colourway, as well as the number of rolls, or linear metres you require. International orders will generate tracking details when despatched and you will be told of the expected delivery dates.<\/p><p>Orders will be accepted through the website 24-7, 365 days per year, however, our studio is open <strong>Monday to Thursday<\/strong> (Excluding UK Bank holidays) 9am-5pm (GMT) so orders will only be processed during these times.<\/p>"
+          }
+        },
+        "6857355f-d83e-4843-8c0c-4a0759a75820": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have a pattern book?",
+            "text": "<p>Unfortunately we do not have a pattern book or catalogue as our collection is always growing and the available products are visually represented on the website. <\/p><p>Contact us at hello@woodchipandmagnolia.co.uk if you are looking for something in particular, or call us <a href=\"tel:01254 241100\" target=\"_blank\">01254 241100<\/a><\/p>"
+          }
+        },
+        "958ee870-201d-49ff-bb8a-2bfa0ac9dd41": {
+          "type": "question",
+          "settings": {
+            "title": "Do you provide a sample service?",
+            "text": "<p>It's always best to see wallpaper, fabric and paint up close and personal to get a real feel for the quality, pattern detail and pigment intensity, which is why we would always advise our customers to order samples first. <\/p><p>To order a sample, simply go to the product page and select 'sample' then 'add to cart'.<\/p><p>Samples can be sent via Royal Mail for FREE or UPS tracked for £8.<\/p><p>Sample details and costs are as follows:<\/p><p><strong>Wallpaper<\/strong> <\/p><p>We have two wallpaper sample costs; £1.75 and £2 (dependent on wallpaper type)<\/p><p>We have two sizes of wallpaper samples; 52cm x 22cm and 52cm x 52cm (depending on wallpaper type).<\/p><p><strong>Murals<\/strong> <\/p><p>£3<\/p><p>Sized at 52cm x 52cm<\/p><p><strong>Fabric<\/strong><\/p><p>£2<\/p><p>Most of our fabric sample sizes are 25cm x 22cm with the exception of the following designs:<\/p><p>Onism fabric: 50cm x 20cm<\/p><p>Ava Marika fabric: 42cm x 30cm<\/p><p><strong>Paint<\/strong><\/p><p>75p<\/p><p>All of our paint samples are hand painted onto leftover and recyclable wallpaper ends (to save wastage) and are available in a Matt finish only<\/p><p>Sample swatches are intended as a colour and texture sample only and do not show the full design repeat or all of the colours of the design.<\/p><p>A maximum of 2 samples of the same design can be ordered. We have the right to refund any order of multiples of the same design.<\/p><p> <\/p>"
+          }
+        },
+        "0cf038ce-3d14-46a2-bf55-dc654fa9f6f8": {
+          "type": "question",
+          "settings": {
+            "title": "What is a pattern repeat?",
+            "text": "<p>xxx<\/p>"
+          }
+        },
+        "dd20b11b-e751-4f40-b5a5-83ef9d23a4f7": {
+          "type": "question",
+          "settings": {
+            "title": "What tools will I need for my project?",
+            "text": "<p>The good news is that most of what you'll need will probably already be in your toolbox! Here's our checklist to make sure you're prepped and ready to decorate:<\/p><p><strong>For wallpaper and murals<\/strong><\/p><p>- Paste the Wall paste (we recommend <a href=\"https:\/\/www.diy.com\/departments\/solvite-paste-the-wall-ready-mixed-wallpaper-adhesive-2-5kg\/5010383313128_BQ.prd?ds_rl=1272379&gclid=CjwKCAjwp7eUBhBeEiwAZbHwkfpR_m8_b9G0ZXi0wFK4I90pwepwVVpXfVte8RO7E8u_AaXnIBPpLhoCtCAQAvD_BwE&gclsrc=aw.ds&storeId=1269\" target=\"_blank\" title=\"https:\/\/www.diy.com\/departments\/solvite-paste-the-wall-ready-mixed-wallpaper-adhesive-2-5kg\/5010383313128_BQ.prd?ds_rl=1272379&gclid=CjwKCAjwp7eUBhBeEiwAZbHwkfpR_m8_b9G0ZXi0wFK4I90pwepwVVpXfVte8RO7E8u_AaXnIBPpLhoCtCAQAvD_BwE&gclsrc=aw.ds&storeId=1269\">Solvite Paste the Wall<\/a>)<\/p><p>- Paste brush or roller<\/p><p>- Smoothing tool (brush or plastic)<\/p><p>- Tape measure<\/p><p>- Pencil<\/p><p>- Laser level (not required but useful for getting your wallpaper straight) or spirit level<\/p><p>- Seam roller<\/p><p>- Utility knife<\/p><p>- Drop cloth<\/p><p><strong>For paint<\/strong><\/p><p>- Paint brush<\/p><p>- Roller<\/p><p>- Masking tape (unless you're confident in your freehanding!)<\/p><p>- Drop cloth<\/p><p><\/p>"
+          }
+        },
+        "210ca76e-426a-4960-996c-2cf3f6f362dd": {
+          "type": "question",
+          "settings": {
+            "title": "How many wallpaper rolls will I need?",
+            "text": "<p>Before you buy your wallpaper, you'll need to work out how many rolls you'll need. Lucky for you, we've now got a handy wallpaper calculator tool on each of our wallpaper product pages to make it as easy as possible.<\/p><p>Simply measure each of your walls length and width (in either cm or inches) and input into the calculator.<\/p><p>You can add as many walls as you need to on the calculator<\/p><p>Click 'calculate' and our calculator tool will tell you exactly how many rolls to order<\/p><p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-measure-your-walls\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-measure-your-walls\">Click here<\/a> to read our guide to measuring your walls<\/p><p>If you're still unsure, it's always best to over order. That way, you'll prevent any hold ups with decorating and additional costs for decorators time etc. Any unused rolls can always be returned for a full refund, as long as they're unopened.<\/p><p><\/p>"
+          }
+        },
+        "93201f3e-b5ba-4a89-8fc5-b6d4aab89471": {
+          "type": "question",
+          "settings": {
+            "title": "How do I measure my walls?",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-measure-your-walls\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-measure-your-walls\">Click here<\/a> to read our guide to measuring your walls.<\/p>"
+          }
+        },
+        "834e8936-2475-43e6-9d21-c6e34a4cff3f": {
+          "type": "question",
+          "settings": {
+            "title": "How do I measure for a mural?",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-measure-your-walls\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-measure-your-walls\">Click here<\/a> to read our guide to measuring your walls for a mural.<\/p>"
+          }
+        },
+        "ae47b71f-3124-4520-a6ea-02733ba29423": {
+          "type": "question",
+          "settings": {
+            "title": "What is 'Paste the Wall'?",
+            "text": "<p>All of our wallpapers, borders and murals use the 'Paste the Wall' method of application, which means you paste the wall and not the paper.<\/p><p>It's much less messy than the tradiitonal 'Paste the paper' method, as well as quicker and easier.<\/p><p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/what-is-paste-the-wall-paper\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/what-is-paste-the-wall-paper\">Click here<\/a> to read all about the benefits of Paste the Wall.<\/p>"
+          }
+        },
+        "e27ea549-2957-4915-9486-40880ac6272e": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use wallpaper in my bathroom?",
+            "text": "<p>All of our wallpapers are durable and hardwearing and are therefore often used in bathrooms, however there are a few things to keep in mind...<\/p><p>- Keep the wallpaper as dry as possible by avoiding splash zones or anywhere that comes into direct contact with water <\/p><p>- Make sure your bathroom is well ventilated<\/p><p>- Sometimes our customers use a clear varnish such as Polyvine Decorators Varnish in ‘Dead Flat’ on top of the wallpaper to provide some added water resistance.<\/p><p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/can-i-wallpaper-my-bathroom\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/can-i-wallpaper-my-bathroom\">Click here<\/a> to read our bathroom wallpaper how to.<\/p>"
+          }
+        },
+        "d519ca69-b3ea-4b07-89cd-b1eb833e152e": {
+          "type": "question",
+          "settings": {
+            "title": "What can I use to protect the wallpaper in my bathroom?",
+            "text": "<p>Sometimes our customers use a clear varnish such as Polyvine Decorators Varnish in ‘Dead Flat’ on top of the wallpaper to provide some added water resistance.<\/p>"
+          }
+        },
+        "374ec13a-af24-4e38-8a45-d54d81701fef": {
+          "type": "question",
+          "settings": {
+            "title": "How do I hang wallpaper?",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-diy-with-wallpaper\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-diy-with-wallpaper\">Click here<\/a> to read our how to guide on hanging wallpaper.<\/p><p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/pages\/woodchip-and-magnolia-6-panel-hanging-instructions\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/pages\/woodchip-and-magnolia-6-panel-hanging-instructions\">Click here<\/a> for our 6 panel hanging instructions.<\/p><p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/pages\/woodchip-and-magnolia-12-panel-hanging-instructions\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/pages\/woodchip-and-magnolia-12-panel-hanging-instructions\">Click here<\/a> for our 12 panel hanging instructions.<\/p>"
+          }
+        },
+        "f7b709e1-ed2f-4a4f-b582-c186d1c8a720": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to prime my walls before wallpapering?",
+            "text": "<p>Yes.<\/p><p>On fresh plaster and\/or painted walls, \"size\" or \"seal\" the wall before wallpapering.<\/p><p>This means making up a diluted solution of paste and liberally applying it to the walls being decorated, then letting it dry. It will be absorbed in the porous plaster and will stop the paste being absorbed when it is applied.<\/p><p><\/p>"
+          }
+        },
+        "d4e24254-0203-4227-83a5-cf3d03a78c4f": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know which fabric finish to choose?",
+            "text": "<p>Our fabrics come available in 3 finishes:<\/p><p><strong>FR Treated<\/strong><br\/>Standard FR treated fabric means that it's been match tested to ensure it won't burn with a match against it. This treatment is usually used in residential upholstery and commercial curtains and cushions etc.<\/p><p><strong>CRIB 5 Treated fabric<\/strong><br\/>This is when the fabric has been crib and match tested to ensure it will not burn with a match against it, plus a wooden stack called a crib is placed on the fabric and ignited. This treatment is usually used in commercial and hospitality environments.<\/p><p><strong>Drapery<\/strong><br\/>This is the untreated option, meaning the fabric has not been treated with any chemicals to protect it against burning; great for curtains in non-commercial settings.<\/p>"
+          }
+        },
+        "84e7ee37-f0b7-4733-a972-d5467b7ba4a2": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between wallpaper and a mural?",
+            "text": "<p>The main difference between wallpaper and murals is that murals, unlike wallpaper, can be customised to your exact room measurements and are scaled to your space.<\/p><p>We can also manipulate, adjust or tweak our mural designs to accommodate for obstacles such as doorways, archways and windows. For further help with this, please get in touch at <em>hello@woodchipandmagnolia.co.uk<\/em><\/p><p>Wallpaper on the other hand provides a more uniformed look and is generally used for one feature wall or multiple walls. Murals are most often used to make a feature of one wall or to highlight a design feature such as panelling or the ceiling.<\/p>"
+          }
+        },
+        "377e2b9c-7e4f-4520-b153-286e3ae66ee6": {
+          "type": "question",
+          "settings": {
+            "title": "What is the 'Ditsy' version of a design?",
+            "text": "<p>Our Ditsy wallpapers are smaller scale versions of the original design, meaning there is more of a pattern repeat.<\/p><p>Our Ditsy wallpapers are great for smaller spaces where you need a smaller scale pattern to see the full impact of the design. <\/p>"
+          }
+        },
+        "4648caee-b3a9-4ec7-be9a-633d9d38aeef": {
+          "type": "question",
+          "settings": {
+            "title": "How to install a mural",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-install-a-wall-mural-1\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-install-a-wall-mural-1\">Click here<\/a> to read our guide to installing a mural.<\/p>"
+          }
+        },
+        "3eb5dbc2-1da2-42b9-b276-1be3fdc12c95": {
+          "type": "question",
+          "settings": {
+            "title": "How to hang wallpaper",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-hang-wallpaper\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-hang-wallpaper\">Click here<\/a> for our guide to hanging wallpaper.<\/p>"
+          }
+        },
+        "3337033a-62fc-48c4-9367-295dd3eab020": {
+          "type": "question",
+          "settings": {
+            "title": "How to measure your walls",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-measure-your-walls\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-measure-your-walls\">Click here<\/a> for our guide to measuring your walls.<\/p>"
+          }
+        },
+        "8f75c9a5-54da-43d4-b5fb-5388a382e65e": {
+          "type": "question",
+          "settings": {
+            "title": "How to prep your walls",
+            "text": "<p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-prep-your-walls-before-decorating\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-prep-your-walls-before-decorating\">Click here<\/a> to read our guide on prepping your walls correctly before decorating.<\/p>"
+          }
+        },
+        "9b8abb12-fb34-4d6b-8fef-7c84c4737632": {
+          "type": "question",
+          "settings": {
+            "title": "How to order a mural",
+            "text": "<p>Ordering a mural is much easier than you might think. <\/p><p><a href=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-order-a-mural\" target=\"_blank\" title=\"https:\/\/www.woodchipandmagnolia.co.uk\/blogs\/decorating-hub\/how-to-order-a-mural\">Read our guide<\/a> to ordering a mural online.<\/p>"
+          }
+        },
+        "f98b45bf-5594-4411-a723-0b5f202a9a2a": {
+          "type": "question",
+          "settings": {
+            "title": "How do I cancel an order?",
+            "text": "<p>Please note that as all our products are made to order and we pride ourselves in manufacturing orders quickly (to be dispatched within 24 hours) we can only offer a 12 hour cancellation period. If you wish to cancel your order, simply contact us at <a href=\"mailto:hello@woodchipandmagnolia.co.uk\" target=\"_blank\"><em>hello@woodchipandmagnolia.co.uk<\/em><\/a><\/p><p>If you wish to cancel an order within 12 hours of purchase and your order has been manufactured but has not yet been dispatched there will be a 20% restocking fee.<\/p><p>As it is not possible to cancel your order after it has been dispatched. Please refer to the Returns policy.  <\/p><p>Orders that have been made to your exact specification cannot be cancelled after the payment has been taken.'<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653468258a44bd833-0",
+        "1653468258a44bd833-1",
+        "265dcf3e-1c68-45f7-ad3e-0333c065cf96",
+        "2a3e1f16-2c97-4dce-a746-8cc9fdd69b2f",
+        "911d783e-581d-4f38-8087-49e6a955be9d",
+        "61b8e4b6-9222-41a6-9fcd-adac616d427d",
+        "4ebaa231-b771-4616-a58e-e0389a507f55",
+        "b9e5498c-af20-42be-bb1f-d38659c77cf3",
+        "564e54c0-997f-47f9-9786-e584c920994c",
+        "20f51dd0-e301-495d-925c-3734ea658e38",
+        "62e8657e-ad48-4030-ae99-fe5c99af3e8d",
+        "6857355f-d83e-4843-8c0c-4a0759a75820",
+        "958ee870-201d-49ff-bb8a-2bfa0ac9dd41",
+        "0cf038ce-3d14-46a2-bf55-dc654fa9f6f8",
+        "dd20b11b-e751-4f40-b5a5-83ef9d23a4f7",
+        "210ca76e-426a-4960-996c-2cf3f6f362dd",
+        "93201f3e-b5ba-4a89-8fc5-b6d4aab89471",
+        "834e8936-2475-43e6-9d21-c6e34a4cff3f",
+        "ae47b71f-3124-4520-a6ea-02733ba29423",
+        "e27ea549-2957-4915-9486-40880ac6272e",
+        "d519ca69-b3ea-4b07-89cd-b1eb833e152e",
+        "374ec13a-af24-4e38-8a45-d54d81701fef",
+        "f7b709e1-ed2f-4a4f-b582-c186d1c8a720",
+        "d4e24254-0203-4227-83a5-cf3d03a78c4f",
+        "84e7ee37-f0b7-4733-a972-d5467b7ba4a2",
+        "377e2b9c-7e4f-4520-b153-286e3ae66ee6",
+        "4648caee-b3a9-4ec7-be9a-633d9d38aeef",
+        "3eb5dbc2-1da2-42b9-b276-1be3fdc12c95",
+        "3337033a-62fc-48c4-9367-295dd3eab020",
+        "8f75c9a5-54da-43d4-b5fb-5388a382e65e",
+        "9b8abb12-fb34-4d6b-8fef-7c84c4737632",
+        "f98b45bf-5594-4411-a723-0b5f202a9a2a"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq",
+    "16322375108d36fb1c",
+    "1653468258747d6f69"
+  ]
+}
