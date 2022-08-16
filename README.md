@@ -1,1 +1,1 @@
-# woodchip-and-magnolia-storefront
+# w-and-m
